@@ -75,16 +75,16 @@ export default function Websites() {
 
         <p className={Page.description}>
             Designed with {' '}
-          <Link href="/">
+          <Link href="https://www.figma.com/">
             <a>Figma</a>
           </Link>, built with {' '}
-          <Link href="/">
+          <Link href="https://drupal.org/">
             <a>Drupal</a>
           </Link> or {' '}
-          <Link href="/">
+          <Link href="https://wordpress.org/">
             <a>Wordpress</a>
           </Link>, and hosted on {' '}
-          <Link href="/">
+          <Link href="https://pantheon.io/">
             <a>Pantheon</a>
           </Link>
         </p>
