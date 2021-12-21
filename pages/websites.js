@@ -266,9 +266,10 @@ export default function Websites() {
               <strong>Wordpress</strong><br/>
               Custom design &amp; theme<br/>
               Content organization<br/>
-              Guidance on photography<br/>
-              Logo design<br/>
-              Business cards &amp; brochures</p>
+              Content gathering<br/>
+              Online Reading Experience<br/>
+              Content types & views
+            </p>
             <p className={Components.text}>
               <a href="https://kamome.humboldt.edu/">kamome.humboldt.edu</a>
             </p>
