@@ -17,7 +17,7 @@ export default function Websites() {
   return (
     <div>
       <Head>
-        <title>Jen's Portfolio - Graphic Design</title>
+        <title>Jen&apos;s Portfolio - Graphic Design</title>
         <meta name="description" content="Graphic design portfolio list" />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
