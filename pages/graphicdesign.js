@@ -17,8 +17,8 @@ export default function Websites() {
   return (
     <div>
       <Head>
-        <title>Jen's Portfolio - About</title>
-        <meta name="description" content="About portfolio" />
+        <title>Jen's Portfolio - Graphic Design</title>
+        <meta name="description" content="Graphic design portfolio list" />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <header>
@@ -70,7 +70,7 @@ export default function Websites() {
       </header>
       <main className={Layout.main}>
         <h1 className={Page.title}>
-         About
+         Graphic Design
         </h1>
 
 
