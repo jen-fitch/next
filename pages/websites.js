@@ -70,7 +70,7 @@ export default function Websites() {
       </header>
       <main className={Layout.main}>
         <h1 className={Page.title}>
-         Web Design
+         Websites
         </h1>
 
         <p className={Page.description}>
