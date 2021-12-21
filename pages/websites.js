@@ -215,7 +215,7 @@ export default function Websites() {
                   height={250}
               />
             </a>
-            <a href="https://www.humboldtlandman.com/"><h2 className={Components.title}>Day Spa &rarr;</h2></a>
+            <a href="https://www.humboldtlandman.com/"><h2 className={Components.title}>Real Estate &rarr;</h2></a>
             <p className={Components.text}>
               <strong>Wordpress</strong><br/>
               Custom Design & Theme<br/>
@@ -261,7 +261,7 @@ export default function Websites() {
                   height={250}
               />
             </a>
-            <a href="https://kamome.humboldt.edu/"><h2 className={Components.title}>Day Spa &rarr;</h2></a>
+            <a href="https://kamome.humboldt.edu/"><h2 className={Components.title}>Tsunami Story &rarr;</h2></a>
             <p className={Components.text}>
               <strong>Wordpress</strong><br/>
               Custom design &amp; theme<br/>
