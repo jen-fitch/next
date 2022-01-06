@@ -1,8 +1,7 @@
 /* logo and header info */
-
 .logo {
+  padding: 0 10px 20px 0;
   text-align: center;
-  padding: 30px 30px 15px;
 }
 
 .about {
@@ -11,29 +10,77 @@
 }
 
 /* Navigation */
-
 .nav {
-  text-align: center;
-  border-top: 1px solid #292929;
-  border-bottom: 1px solid #292929;
-  margin: 0 auto;
+  /*text-align: center;*/
+  border-top: 1px solid #AAA;
+  border-bottom: 1px solid #AAA;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*max-width: 1200px;*/
+
+}
+.nav li {
+  flex: auto;
+  border-right: 1px solid #AAA;
 }
 
 .nav a {
   flex: auto;
-  color: #444 !Important;
+  color: #444;
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  background: #f6f6f6;
-  width: 33.33%;
+  /*background: #444;*/
+  /*width: 33.33%;*/
+  display: block;
+  border-right: 1px solid #AAA;
+  margin: 0;
+}
+.nav a:last-child, .nav li:last-child  {
+  border-right: none;
 }
 
-.nav a:hover {
-  background: #EEE;
+ul.nav  {
+  list-style-type: none;
 }
+
+.nav2 {
+  text-align: right;
+  border-top: 1px solid #292929;
+  border-bottom: 1px solid #AAA;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.nav2 a {
+  /*flex: auto;*/
+  color: #444;
+  padding: 15px 10px;
+  text-align: right;
+  text-decoration: none;
+  /*background: #444;*/
+  /*width: 33.33%;*/
+  display: block;
+  border-right: 1px solid #AAA;
+  width: 100%;
+}
+.nav2 a:last-child {
+  border-right: none;
+}
+
+/*.nav a:hover {*/
+/*  background: #EEE;*/
+/*}*/
 
 /* title and description */
+.title {
+  /*text-align: center;*/
+}
+
+.description {
+  /*text-align: center;*/
+}
