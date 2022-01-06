@@ -128,16 +128,16 @@ export default function Portfolio() {
                         </p>
                     </div>
                     <div className={Components.card}>
-                        <a href="/portfolio/academictheme">
+                        <Link href="/portfolio/academictheme">
                             <Image
                                 src="/images/portfolio/depttheme.jpg"
                                 alt="Michael standing in front of his still"
                                 width={500}
                                 height={250}
                             />
-                        </a>
+                        </Link>
 
-                        <a href="/portfolio/academictheme"><h2 className={Components.title}>Academic Department Themes</h2></a>
+                        <Link href="/portfolio/academictheme"><h2 className={Components.title}>Academic Department Themes</h2></Link>
                         <p className={Components.text}>
                             <strong>Drupal</strong><br/>
                             Site structure template<br/>
@@ -341,15 +341,15 @@ export default function Portfolio() {
                         </p>
                     </div>
                     <div className={Components.card}>
-                        <a href="/portfolio/bellathese">
+                        <Link href="/portfolio/bellathese">
                             <Image
                                 src="/images/portfolio/bellathese2.jpg"
                                 alt="Bella TheSe Logo"
                                 width={500}
                                 height={250}
                             />
-                        </a>
-                        <a href="/portfolio/bellathese"><h2 className={Components.title}>Bella TheSe Day Spa</h2></a>
+                        </Link>
+                        <Link href="/portfolio/bellathese"><h2 className={Components.title}>Bella TheSe Day Spa</h2></Link>
                         <p className={Components.text}>
                             <strong>Wordpress</strong><br/>
                             Custom design &amp; theme<br/>
