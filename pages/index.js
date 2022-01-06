@@ -60,19 +60,20 @@ export default function Home() {
                     <ul className={Page.nav}>
                         {menu.map((item, index) => {
                             return (
-                                <li>
                                     <Link key={index} href={item.path}>
-                                        <a
+                                        <li>
+                                            <a
                                             className={`nav-item ${
                                                 router.pathname === item.path
                                                     ? 'active'
                                                     : ''
-                                            }`}
-                                        >
-                                            {item.title}
-                                        </a>
+                                                }`}
+                                            >
+                                                {item.title}
+                                            </a>
+                                        </li>
                                     </Link>
-                                </li>
+
                             )
                         })}
                     </ul>
