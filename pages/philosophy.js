@@ -4,10 +4,9 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Layout from '../styles/Layout.module.css'
 import Page from '../styles/Page.module.css'
-import Components from '../styles/Components.module.css'
 
 const menu = [
-    { title: 'Portfolio', path: '/portfolio' },
+    { title: 'Portfolio', path: '/' },
     { title: 'Résumé', path: '/resume' },
     { title: 'Philosophy', path: '/philosophy' },
 ]
@@ -19,60 +18,53 @@ export default function Philosophy() {
             <Head>
                 <title>Jenifer Fitch - Philosophy</title>
                 <meta name="description" content="Philosophy" />
-                <link rel="icon" href="/images/favicon.ico" />
             </Head>
-            <header>
-                <div className={`${Layout.nav_wrap} ${Layout.nav_sticky}`}>
-                    <div className={Page.nav}>
-                        {menu.map((item, index) => {
-                            return (
-                                <Link key={index} href={item.path}>
-                                    <a
-                                        className={`nav-item ${
-                                            router.pathname === item.path
-                                                ? 'active'
-                                                : ''
-                                        }`}
-                                    >
-                                        {item.title}
-                                    </a>
-                                </Link>
-                            )
-                        })}
-                    </div>
+
+            <div className={`${Layout.nav_wrap}`}>
+                <nav className={Page.main}>
+                    {menu.map((item, index) => {
+                        return (
+                            <Link key={index} href={item.path}>
+                                <a
+                                    className={`nav-item ${
+                                        router.pathname === item.path
+                                            ? 'active'
+                                            : ''
+                                    }`}
+                                >
+                                    {item.title}
+                                </a>
+                            </Link>
+                        )
+                    })}
+                </nav>
+            </div>
+
+            <header className={`${Layout.logo_wrap}`}>
+                <div className={Page.logo}>
+                    <Link href="/">
+                        <a>
+                            <Image
+                                src="/images/logo.png"
+                                alt="J.Fitch Logo"
+                                width={377*.5}
+                                height={92*.5}
+                            />
+                        </a>
+                    </Link>
                 </div>
-                <div className={`${Layout.logo_wrap} ${Layout.logo_sticky}`}>
-                    <div className={Page.logo}>
-                        <Link href="/">
-                            <a>
-                                <Image
-                                    src="/images/logo.png"
-                                    alt="Jenifer Fitch Logo"
-                                    width={377*.5}
-                                    height={92*.5}
-                                />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className={Page.about}>
-                        {' '}
-                        <Link href="tel:17076316934">
-                            <a>(707) 631-6934</a>
-                        </Link>
-                    </div>
-                    <div className={Page.about}>
-                        {' '}
-                        <Link href="mailto:contact@jeniferfitch.com">
-                            <a>contact@jeniferfitch.com</a>
-                        </Link>
-                    </div>
-                    <div className={Page.about}>
-                        {' '}
-                        <Link href="https://www.linkedin.com/in/jeniferfitch/">
-                            <a>LinkedIn Profile</a>
-                        </Link>
-                    </div>
-                </div>
+                <p className={Page.about}>
+                    {' '}
+                    <Link href="tel:17076316934">
+                        <a>(707) 631-6934</a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+                    {' '}
+                    <Link href="mailto:hello@jen-fitch.com">
+                        <a>hello@jen-fitch.com</a>
+                    </Link>
+
+                </p>
             </header>
             <main className={Layout.main}>
                 <h1 className={Page.title}>
