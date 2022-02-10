@@ -25,6 +25,11 @@ a {
   color: #074786;
 }
 
+footer a {
+  color: #FFF;
+}
+
+
 img.pointer:hover {
   cursor: pointer;
 }
