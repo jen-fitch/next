@@ -248,7 +248,7 @@ export default function Portfolio() {
                             </p>
                             <p className={Cards.text}>
                                 <a href="https://gettingtocollege.humboldt.edu">gettingtocollege.humboldt.edu</a><br/><br/>
-                                <strong>Sitemap:</strong> <a href="#">Getting to College - Figma</a><br/>
+                                <strong>Sitemap:</strong> <a href="https://www.figma.com/proto/vb7RhMa1jL1K31UBOQUfPd/gettingtocollege.com?page-id=0%3A1&node-id=1%3A100&viewport=241%2C48%2C0.23&scaling=min-zoom">Getting to College - Figma</a><br/>
                                 {/*<strong>Case Study:</strong> <a href="#">Getting to College</a>*/}
                             </p>
                         </div>
