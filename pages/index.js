@@ -93,7 +93,7 @@ export default function Portfolio() {
                 </div>
                 <div className={Cards.grid}>
                     <div className={Cards.card}>
-                        <Link href="/portfolio/academictheme" passHref>
+                        <Link href="https://www.figma.com/proto/81UGD0JNFwb2MI2dhKARvH/CNRS-theme-color-palettes?page-id=186%3A2&node-id=239%3A0&viewport=241%2C48%2C0.11&scaling=min-zoom&starting-point-node-id=239%3A0" passHref>
                             <Image
                                 src="/images/portfolio/depttheme.jpg"
                                 alt="screenshots of website and colorpalette"
@@ -116,8 +116,8 @@ export default function Portfolio() {
                             </p>
                             <p className={Cards.text}>
                                 <a href="#">List of all Websites</a><br/><br/>
-                                <strong>Design:</strong> <a href="#">Academic Theme - Figma</a><br/>
-                                <strong>Case Study:</strong> <a href="#">Academic Theme</a>
+                                <strong>Design:</strong> <a href="https://www.figma.com/proto/81UGD0JNFwb2MI2dhKARvH/CNRS-theme-color-palettes?page-id=186%3A2&node-id=239%3A0&viewport=241%2C48%2C0.11&scaling=min-zoom&starting-point-node-id=239%3A0">Academic Theme - Figma</a><br/>
+                                {/*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*/}
                             </p>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ export default function Portfolio() {
                             <p className={Cards.text}>
                                 <a href="https://www.humboldtlandman.com/">humboldtlandman.com</a><br/><br/>
                                 <strong>Design:</strong> <a href="https://www.figma.com/proto/f0odyM3HbwfkmmKpm0JyPS/website?node-id=1%3A1028&viewport=823%2C182%2C0.125&scaling=min-zoom">Land Man - Figma</a><br/>
-                                <strong>Case Study:</strong> <a href="#">The Land Man Office</a>
+                                {/*<strong>Case Study:</strong> <a href="#">The Land Man Office</a>*/}
                             </p>
                         </div>
                     </div>
@@ -169,7 +169,7 @@ export default function Portfolio() {
                             <p className={Cards.text}>
                                 <a href="https://impact.humboldt.edu/">impact.humboldt.edu</a><br/><br/>
                                 <strong>Design:</strong> <a href="https://www.figma.com/proto/VAic44leZYZcW1nLaDXY9T/impact.humboldt.edu?page-id=63%3A2&node-id=63%3A3&viewport=241%2C48%2C0.12&scaling=scale-down">Economic Impact - Figma</a><br/>
-                                <strong>Case Study:</strong> <a href="#">Economic Impact Report</a>
+                                {/*<strong>Case Study:</strong> <a href="#">Economic Impact Report</a>*/}
                             </p>
                         </div>
                     </div>
@@ -248,7 +248,7 @@ export default function Portfolio() {
                             </p>
                             <p className={Cards.text}>
                                 <a href="https://gettingtocollege.humboldt.edu">gettingtocollege.humboldt.edu</a><br/><br/>
-                                <strong>Design:</strong> <a href="#">Getting to College - Figma</a><br/>
+                                {/*<strong>Design:</strong> <a href="#">Getting to College - Figma</a><br/>*/}
                                 {/*<strong>Case Study:</strong> <a href="#">Getting to College</a>*/}
                             </p>
                         </div>
@@ -330,8 +330,8 @@ export default function Portfolio() {
                                 Content types & views
                             </p>
                             <p className={Cards.text}>
-                                <a href="#">talentsearch.humboldt.edu</a><br/><br/>
-                                <strong>Design:</strong> <a href="#">Talent Search - Figma</a><br/>
+                                <a href="https://talentsearch.humboldt.edu">talentsearch.humboldt.edu</a><br/><br/>
+                                {/*<strong>Design:</strong> <a href="#">Talent Search - Figma</a><br/>*/}
                                 {/*<strong>Case Study:</strong> <a href="#">Talent Search</a>*/}
                             </p>
                         </div>
