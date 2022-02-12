@@ -72,8 +72,6 @@ export default function Resume() {
                     Résumé
                 </h1>
 
-
-
             </main>
 
             <footer className={Layout.footer}>
