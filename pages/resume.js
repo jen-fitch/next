@@ -61,9 +61,10 @@ export default function Resume() {
                     </Link>
                     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
                     {' '}
-                    <Link href="mailto:hello@jen-fitch.com">
-                        <a>hello@jen-fitch.com</a>
+                    <Link href="mailto:jenfitch4@gmail.com">
+                        <a>jenfitch4@gmail.com</a>
                     </Link>
+
 
                 </p>
             </header>
@@ -71,7 +72,17 @@ export default function Resume() {
                 <h1 className={Page.title}>
                     Résumé
                 </h1>
-
+                <p><a href={"/pdf/jenniferFitch_resume_2023-A.pdf"}>Download PDF</a></p>
+                <Link href="/pdf/jenniferFitch_resume_2023-A.pdf">
+                    <a>
+                        <Image
+                            src="/images/resume-image.jpg"
+                            alt="Image of Resume"
+                            width={1600*.7}
+                            height={2071*.7}
+                        />
+                    </a>
+                </Link>
             </main>
 
             <footer className={Layout.footer}>

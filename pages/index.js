@@ -62,8 +62,8 @@ export default function Portfolio() {
                     </Link>
                     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
                     {' '}
-                    <Link href="mailto:hello@jen-fitch.com">
-                        <a>hello@jen-fitch.com</a>
+                    <Link href="mailto:jenfitch4@gmail.com">
+                        <a>jenfitch4@gmail.com</a>
                     </Link>
 
                 </p>
