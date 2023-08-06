@@ -91,7 +91,7 @@ export default function Philosophy() {
                         <p>In my 20&apos;s I worked as a visual merchandiser at a music store in San Francisco (Virgin Mega Store) which re-emphasized my passion for organization and added the extra layer of doing it with purpose! I was able to improve the aesthetics of the store, make it easy for people to find what they were looking for, and increase sales. This was my introduction to the amazing world of wayfinding and usability. </p>
                         <p>While working at the music store, I made a few musician friends and started doing graphics for their bands and helped with merchandising at their shows. This launched my design freelance business, which I still am doing a small amount of today. </p>
                         <p>In my late 20’s I started design school at the Academy of Art where I earned my BFA in Web Design & New media. Since graduating, I have been designing websites for <a href="https://humboldt.edu">Cal Poly Humboldt</a>.</p>
-                        <p><strong>My passion for web design is built our of the desire to making things simple, easy to use, and visually appealing.</strong></p>
+                        <p><strong>My passion for web design is built out of the desire to making things simple, easy to use, and visually appealing.</strong></p>
                     </div>
                 </div>
 
