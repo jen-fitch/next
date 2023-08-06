@@ -72,8 +72,8 @@ export default function Resume() {
                 <h1 className={Page.title}>
                     Résumé
                 </h1>
-                <p><a href={"/pdf/jenniferFitch_resume_2023-A.pdf"}>Download PDF</a></p>
-                <Link href="/pdf/jenniferFitch_resume_2023-A.pdf">
+                <p><a href={"/pdf/jenniferFitch_resume.pdf"}>Download PDF</a></p>
+                <Link href="/pdf/jenniferFitch_resume.pdf">
                     <a>
                         <Image
                             src="/images/resume-image.jpg"
