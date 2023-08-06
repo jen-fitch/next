@@ -7,8 +7,8 @@ import Page from '../styles/Page.module.css'
 
 const menu = [
     { title: 'Portfolio', path: '/' },
-    { title: 'Résumé', path: '/resume' },
     { title: 'Philosophy', path: '/philosophy' },
+    { title: 'Résumé', path: '/resume' },
 ]
 
 export default function Philosophy() {
@@ -70,24 +70,42 @@ export default function Philosophy() {
                 <h1 className={Page.title}>
                     Philosophy
                 </h1>
-                <p>Honest design is the basis for a positive experience.</p>
+                <div className={Layout.row}>
+                    <div className={Layout.left}>
+                        <h2>Honest Design = Positive Experiences</h2>
+                        <p>I am passionate about my job for many reasons but the most important reason is that honest interactions build trust and positive experiences. In turn, this helps my clients meet their needs in a sustainable way and to develop long term relationships with their users.</p>
+                        {/*<h2></h2>If I can help make someone (or a thousand someones) day more fluid, I believe that is a success.</p>*/}
+                        {/*<p>With research, good design, content organization, and time spent polishing content, I develop websites that solve problems and are easy to understand.</p>*/}
+                        <h2>Building Seamless Experiences</h2>
+                        <p>A seamless experience reflects positively on a brand or product and helps build a company&apos;s reputation. This indirectly tells the user you care about their needs, respect their time, and know how to solve problems. The majority of an amazing website is invisible to the user and will be subconsciously digested to develop a positive overall experience.</p>
+                        <h2>Understanding User&apos;s Needs</h2>
+                        <p>Successful websites must start with understanding the audience&apos;s needs and this is done by caring about their experience, valuing their time, and understanding the problems that need to be solved.</p>
+                        <h2>Caring. Respect. Problem Solving.</h2>
+                        <p>This is the foundation for why I am passionate about user experience design. These qualities create trust and a positive relationships. Design that people trust builds loyalty.</p>
+                        {/*<h2>Collaboration</h2>*/}
+                        {/*<p>On a personal level, getting to know clients and coworkers is a wonderful adventure. I enjoy learning about people&apos;s needs and enmeshing myself with how they perceive the world. I strive to understand how to meet their needs and pair that with find feasible solutions based on the project&apos;s limitations. Each individual has different life experiences and predispositions which result in different ways of looking at tasks and projects. Getting to know clients helps me with problem solving and building trust with them directly as well.</p>*/}
+                    </div>
+                    <div className={Layout.right}>
+                        <h2>My Beginnings</h2>
+                        <p>I have had a natural instinct and passion for organizing things since I was a child. When I was in elementary school I remember organizing my stuffed animals into groups and arranging them very neatly on my shelves. I often also like to change the organization just to get a fresh look and then make a final decision what was the best organization, sometimes putting them back the way they originally were. </p>
+                        <p>In my 20&apos;s I worked as a visual merchandiser at a music store in San Francisco (Virgin Mega Store) which re-emphasized my passion for organization and added the extra layer of doing it with purpose! I was able to improve the aesthetics of the store, make it easy for people to find what they were looking for, and increase sales. This was my introduction to the amazing world of wayfinding and usability. </p>
+                        <p>While working at the music store, I made a few musician friends and started doing graphics for their bands and helped with merchandising at their shows. This launched my design freelance business, which I still am doing a small amount of today. </p>
+                        <p>In my late 20’s I started design school at the Academy of Art where I earned my BFA in Web Design & New media. Since graduating, I have been designing websites for <a href="https://humboldt.edu">Cal Poly Humboldt</a>.</p>
+                        <p><strong>My passion for web design is built our of the desire to making things simple, easy to use, and visually appealing.</strong></p>
+                    </div>
+                </div>
 
-                <p>I am passionate about design for many reasons but the most important reason is good design & site organization makes life easier for the end user. If I can help organize a user&apos;s experience to make their day easier and more fluid I believe that is a success. And helping 100&apos;s or 1000&apos;s of people have a better experience is an even great achievement!</p>
-                <p>With research, good design, and time spent polishing content, I make websites that solve problems and are easy to understand.</p>
-                <p>Building pleasurable experiences reflects positively on a brand, product, or company’s reputation. That pleasure is interpreted by the viewer as caring which translates to caring about your customer (them). Successful websites must start with understand the audience and this is done first by caring about them, their time, and their needs.</p>
-                <p><strong>This is the basis for why I design. Caring. Compassion. Pleasure.</strong> These qualities create trust and a positive relationship with the user. The user will trust your organization, know that you are on their side, and be there to help them. Design that promotes honesty also builds loyalty. Therefore, I believe the root of amazing design is honesty.</p>
-                <p>I have a natural instinct and passion for organizing things. When I was a child I remember organizing my stuffed animals into groups and putting them very neatly on my shelves. I often also like to change the organization just to get a fresh look at them all. Then in my 20’s I worked as a visual merchandiser at a music store in SF which re-emphasized my passion for organizing things and added the layer of doing it to benefit the aesthetics of the store and also make it easy for people to navigate the store and find what they were looking for. This was my unknown introduction to way finding and usability. Then I made some musician friends and started doing graphics for them and helping with merchandising at their shows. This was the start of design freelance business which I still am doing a bit of today. In my late 20’s I started design school at the Academy of Art where I earned my BFA in Web Design & New media. Since graduating, I have been designing websites for <a href="https://humboldt.edu">Cal Poly Humboldt</a>.</p>
-                <p>My passion for web design is built our of the desire to making things simple, easy to use, and visually appealing.</p>
-                <p>On a personal level, meeting and getting to know new clients and people is something that feeds my soul. I enjoy learning about people’s needs and try to enmesh myself with how they perceive the world. Each person has a different way of looking at things as a result of their life experiences and predispositions. Getting to know clients helps me to identify their needs as they relate to the goals and then work with them to find feasible solutions.</p>
-                <p><a href={"/resume"}>View Jen&apos;s resume</a></p>
-                <Link href="tel:17076316934">
-                    <a>(707) 631-6934</a>
-                </Link>
-                &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
-                {' '}
-                <Link href="mailto:jenfitch4@gmail.com">
-                    <a>jenfitch4@gmail.com</a>
-                </Link>
+                <div className={Layout.row}>
+                    <p><a href={"/resume"}>View Jen&apos;s resume</a></p>
+                    <Link href="tel:17076316934">
+                        <a>(707) 631-6934</a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+                    {' '}
+                    <Link href="mailto:jenfitch4@gmail.com">
+                        <a>jenfitch4@gmail.com</a>
+                    </Link>
+                </div>
             </main>
 
             <footer className={Layout.footer}>

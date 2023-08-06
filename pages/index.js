@@ -8,8 +8,8 @@ import Cards from '../styles/Cards.module.css'
 
 const menu = [
     { title: 'Portfolio', path: '/' },
-    { title: 'Résumé', path: '/resume' },
     { title: 'Philosophy', path: '/philosophy' },
+    { title: 'Résumé', path: '/resume' },
 ]
 
 export default function Portfolio() {
@@ -76,7 +76,7 @@ export default function Portfolio() {
                     </h1>
 
                     <p className={Page.description}>
-                        Designed with {' '}
+                        All sites below are designed with {' '}
                         <Link href="https://www.figma.com/">
                             <a>Figma</a>
                         </Link>, built with {' '}
@@ -88,6 +88,18 @@ export default function Portfolio() {
                         </Link>, and hosted on {' '}
                         <Link href="https://pantheon.io/">
                             <a>Pantheon</a>
+                        </Link>.
+                    </p>
+                    <p className={Page.description}>
+                        Cal Poly Humboldt projects and case studies available upon request. Email:
+                        {' '} <Link href="mailto:jenfitch4@gmail.com?subject=From website: Cal Poly Humboldt Project Request">
+                            <a>jenfitch4@gmail.com</a>
+                        </Link>
+                    </p>
+                    <p className={Page.description}>
+                        Graphic design, logo design, animation, and email design examples available upon request. Email:
+                        {' '} <Link href="mailto:jenfitch4@gmail.com?subject=From website: Graphic Design Example Request">
+                            <a>jenfitch4@gmail.com</a>
                         </Link>
                     </p>
                 </div>
@@ -105,19 +117,23 @@ export default function Portfolio() {
                         <div className={Cards.info}>
                             <h2 className={Cards.title}>Academic Department Themes</h2>
                             <p className={Cards.text}>
-                                <strong>Drupal 7 (OpenHSU)</strong><br/>
+                                <strong>Drupal 7 </strong><br/>
+                                Comprehensive content inventories<br />
+                                Research for architecture<br />
+                                Analytics research for usage<br />
                                 Site structure template<br/>
                                 Homepage design & template<br/>
                                 Three color palettes<br/>
                                 Organizing content for each site<br/>
                                 Collaborating with content creators<br />
                                 Photo research and choices<br/>
-                                Content types & views
+                                Content types & views<br/>
+                                Building 19 full sites
                             </p>
                             <p className={Cards.text}>
-                                <a href="#">List of all Websites</a><br/><br/>
+                                {/*<a href="#">List of all Websites</a><br/><br/>*/}
                                 <strong>Design:</strong> <a href="https://www.figma.com/proto/81UGD0JNFwb2MI2dhKARvH/CNRS-theme-color-palettes?page-id=186%3A2&node-id=239%3A0&viewport=241%2C48%2C0.11&scaling=min-zoom&starting-point-node-id=239%3A0">Academic Theme - Figma</a><br/>
-                                {/*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*/}
+                                {/*/!*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*!/*/}
                             </p>
                         </div>
                     </div>
@@ -135,10 +151,14 @@ export default function Portfolio() {
                             <h2 className={Cards.title}>The Land Man Office</h2>
                             <p className={Cards.text}>
                                 <strong>Wordpress</strong><br/>
+                                Consultation<br />
+                                Rebuilding from Drupal to Wordpress<br />
+                                Theme & plugin research<br />
+                                Design sketches & mockups<br />
                                 Figma full site design<br/>
-                                Theme built on <Link href="https://understrap.com/"><a>Understrap</a></Link><br/>
-                                Organizing content<br/>
+                                Organizing MLS layout<br/>
                                 MLS & custom real estate listings<br/>
+                                Troubleshooting and themeing MLS<br />
                                 Agent post type
                             </p>
                             <p className={Cards.text}>
@@ -149,30 +169,7 @@ export default function Portfolio() {
                         </div>
                     </div>
 
-                    <div className={Cards.card}>
-                        <a href="https://impact.humboldt.edu/">
-                            <Image
-                                src="/images/portfolio/impact2.jpg"
-                                alt="Humboldt State Impact Report - with arial photo of university"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-                            <h2 className={Cards.title}>Economic Impact Report</h2>
-                            <p className={Cards.text}>
-                                <strong>Drupal 7 (OpenHSU)</strong><br/>
-                                Figma homepage layout<br/>
-                                Complex report design<br/>
-                                Photo research & selection
-                            </p>
-                            <p className={Cards.text}>
-                                <a href="https://impact.humboldt.edu/">impact.humboldt.edu</a><br/><br/>
-                                <strong>Design:</strong> <a href="https://www.figma.com/proto/VAic44leZYZcW1nLaDXY9T/impact.humboldt.edu?page-id=63%3A2&node-id=63%3A3&viewport=241%2C48%2C0.12&scaling=scale-down">Economic Impact - Figma</a><br/>
-                                {/*<strong>Case Study:</strong> <a href="#">Economic Impact Report</a>*/}
-                            </p>
-                        </div>
-                    </div>
+
 
                     <div className={Cards.card}>
                         <a href="https://registrar.humboldt.edu/">
@@ -186,12 +183,16 @@ export default function Portfolio() {
                         <div className={Cards.info}>
                             <h2 className={Cards.title}>Office of the Registrar</h2>
                             <p className={Cards.text}>
-                                <strong>Drupal 7 (OpenHSU)</strong><br/>
-                                Figma homepage layout<br/>
+                                <strong>Drupal 7</strong><br/>
+                                Utilized Drupal profile/distribution<br />
+                                Consultation & Design Research<br />
+                                Full content inventory<br />
+                                New sitemap based on research<br />
                                 Organizing content<br/>
                                 Gathering & migrating content<br/>
                                 Content types & views<br/>
                                 Photo research & selection<br/>
+                                Figma homepage layout<br/>
                             </p>
                             <p className={Cards.text}>
                                 <a href="https://registrar.humboldt.edu/">registrar.humboldt.edu</a><br/><br/>
@@ -199,7 +200,33 @@ export default function Portfolio() {
                             </p>
                         </div>
                     </div>
-
+                    <div className={Cards.card}>
+                        <a href="https://impact.humboldt.edu/">
+                            <Image
+                                src="/images/portfolio/impact2.jpg"
+                                alt="Humboldt State Impact Report - with arial photo of university"
+                                width={500}
+                                height={250}
+                            />
+                        </a>
+                        <div className={Cards.info}>
+                            <h2 className={Cards.title}>Economic Impact Report</h2>
+                            <p className={Cards.text}>
+                                <strong>Drupal 7</strong><br/>
+                                Complex report design<br/>
+                                Unique homepage layout<br />
+                                Built custom report navigation<br />
+                                Themed in Drupal<br />
+                                Figma homepage layout<br/>
+                                Photo research & selection
+                            </p>
+                            <p className={Cards.text}>
+                                <a href="https://impact.humboldt.edu/">impact.humboldt.edu</a><br/><br/>
+                                <strong>Design:</strong> <a href="https://www.figma.com/proto/VAic44leZYZcW1nLaDXY9T/impact.humboldt.edu?page-id=63%3A2&node-id=63%3A3&viewport=241%2C48%2C0.12&scaling=scale-down">Economic Impact - Figma</a><br/>
+                                {/*<strong>Case Study:</strong> <a href="#">Economic Impact Report</a>*/}
+                            </p>
+                        </div>
+                    </div>
                     <div className={Cards.card}>
                         <a href="https://www.jewelldistillery.com/">
                             <Image
@@ -213,12 +240,14 @@ export default function Portfolio() {
                             <h2 className={Cards.title}>Jewell Distillery</h2>
                             <p className={Cards.text}>
                                 <strong>Drupal 8</strong><br/>
-                                Figma full site design<br/>
-                                Bootstrap child theme<br/>
-                                Organizing content<br/>
-                                Assistance with graphics<br/>
+                                Bootstrap WP child theme<br/>
+                                Custom post types<br/>
+                                PHP template files<br/>
                                 Product photography<br/>
-                                Content types & views
+                                Figma full site design<br/>
+                                Custom sitemap<br/>
+                                Assistance with logo & graphics<br/>
+
                             </p>
                             <p className={Cards.text}>
                                 <a href="https://www.jewelldistillery.com/">jewelldistillery.com</a><br/><br/>
@@ -227,58 +256,6 @@ export default function Portfolio() {
                         </div>
                     </div>
 
-                    <div className={Cards.card}>
-                        <a href="https://gettingtocollege.humboldt.edu">
-                            <Image
-                                src="/images/portfolio/gtc2.jpg"
-                                alt="blocks of grade levels 6, 7, 8, 9, 10, 11, 12"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-                            <h2 className={Cards.title}>Getting to College</h2>
-                            <p className={Cards.text}>
-                                <strong>Drupal 7 (OpenHSU)</strong><br/>
-                                Figma homepage design<br/>
-                                Checklist design<br/>
-                                Organizing content<br/>
-                                Assistance with graphics<br/>
-                                Content types & views
-                            </p>
-                            <p className={Cards.text}>
-                                <a href="https://gettingtocollege.humboldt.edu">gettingtocollege.humboldt.edu</a><br/><br/>
-                                <strong>Sitemap:</strong> <a href="https://www.figma.com/proto/vb7RhMa1jL1K31UBOQUfPd/gettingtocollege.com?page-id=0%3A1&node-id=1%3A100&viewport=241%2C48%2C0.23&scaling=min-zoom">Getting to College - Figma</a><br/>
-                                {/*<strong>Case Study:</strong> <a href="#">Getting to College</a>*/}
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className={Cards.card}>
-                        <a href="https://natmus.humboldt.edu/">
-                            <Image
-                                src="/images/portfolio/natmus2.jpg"
-                                alt="Natural History Museum"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-                            <h2 className={Cards.title}>Natural History Museum</h2>
-                            <p className={Cards.text}>
-                                <strong>Drupal 7 (OpenHSU)</strong><br/>
-                                Figma homepage design<br/>
-                                Organizing content<br/>
-                                Gathering & migrating content<br/>
-                                Content types & views<br/>
-                                Special exhibit sub-site
-                            </p>
-                            <p className={Cards.text}>
-                                <a href="https://natmus.humboldt.edu/">natmus.humboldt.edu</a><br/><br/>
-                                <strong>Wireframe & Colors:</strong><br/><a href="https://www.figma.com/proto/OtgyU1WvGgXviuDTm0gPqg/natmus.humboldt.edu?node-id=26%3A0&viewport=649%2C910%2C0.2332824468612671&scaling=min-zoom&page-id=0%3A1">Natural History Museum - Figma</a>
-                            </p>
-                        </div>
-                    </div>
 
                     <div className={Cards.card}>
                         <a href="https://jmcktaxes.com/">
@@ -293,12 +270,15 @@ export default function Portfolio() {
                             <h2 className={Cards.title}>Jessica McKnight - Tax Consultant</h2>
                             <p className={Cards.text}>
                                 <strong>Wordpress</strong><br/>
-                                Figma full site design<br/>
-                                Theme built on <Link href="https://understrap.com/"><a>Understrap</a></Link><br/>
-                                Organizing content<br/>
+                                Bootstrap WP child theme<br/>
+                                Custom resource section<br />
+                                PHP template files<br />
+                                Organized content<br/>
                                 Color exploration<br/>
-                                Photography<br/>
-                                Resources post type
+                                Figma full site design<br/>
+                                {/*Theme built on <Link href="https://understrap.com/"><a>Understrap</a></Link><br/>*/}
+                                Site build<br />
+                                Provided Photography
                             </p>
                             <p className={Cards.text}>
                                 <a href="https://jmcktaxes.com/">jmcktaxes.com</a><br/><br/>
@@ -309,85 +289,7 @@ export default function Portfolio() {
                         </div>
                     </div>
 
-                    <div className={Cards.card}>
-                        <a href="https://talentsearch.humboldt.edu">
-                            <Image
-                                src="/images/portfolio/trio.jpg"
-                                alt="screenshot of the talent search website"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-                            <h2 className={Cards.title}>Trio Talent Search</h2>
-                            <p className={Cards.text}>
-                                <strong>Drupal 7 (OpenHSU)</strong><br/>
-                                Color Palette<br/>
-                                Figma homepage design<br/>
-                                Organizing content<br/>
-                                Assistance with graphics<br/>
-                                Product photography<br/>
-                                Content types & views
-                            </p>
-                            <p className={Cards.text}>
-                                <a href="https://talentsearch.humboldt.edu">talentsearch.humboldt.edu</a><br/><br/>
-                                {/*<strong>Design:</strong> <a href="#">Talent Search - Figma</a><br/>*/}
-                                {/*<strong>Case Study:</strong> <a href="#">Talent Search</a>*/}
-                            </p>
-                        </div>
-                    </div>
 
-                    <div className={Cards.card}>
-                        <a href="https://kamome.humboldt.edu/">
-                            <Image
-                                src="/images/portfolio/kamome2.jpg"
-                                alt="kids holding it up a tsunami boat - illustration"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-                            <h2 className={Cards.title}>The Extraordinary Voyage of Kamome</h2>
-                            <p className={Cards.text}>
-                                <strong>Drupal 7</strong><br/>
-                                Theme building<br/>
-                                Organizing content<br/>
-                                Gathering content<br/>
-                                Online reading experience<br/>
-                                Content types & views
-                            </p>
-                            <p className={Cards.text}>
-                                <a href="https://kamome.humboldt.edu/">kamome.humboldt.edu</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div className={Cards.card}>
-                        <Link href="/portfolio/bellathese" passHref>
-                            <Image
-                                src="/images/portfolio/bellathese2.jpg"
-                                alt="Bella TheSe Logo"
-                                width={500}
-                                height={250}
-                                className={"pointer"}
-                            />
-                        </Link>
-                        <div className={Cards.info}>
-                            <h2 className={Cards.title}>Bella TheSe Day Spa</h2>
-                            <p className={Cards.text}>
-                                <strong>Wordpress</strong><br/>
-                                Figma full site design<br/>
-                                Theme built on <Link href="https://understrap.com/"><a>Understrap</a></Link><br/>
-                                Organizing content<br/>
-                                Guidance on photography<br/>
-                                Logo design<br/>
-                                Business cards &amp; brochures
-                            </p>
-                            <p className={Cards.text}>
-                                <a href="https://bellathese.com">bellathese.com</a><br/><br/>
-                                <strong>Design:</strong> <a href="https://www.figma.com/proto/mBPvZZoqRYncyQhjyRwcsf/Website-Design?node-id=163%3A63&viewport=1428%2C854%2C0.1617431342601776&scaling=min-zoom">Day Spa - Figma</a>
-                            </p>
-                        </div>
-                    </div>
 
                 </div>
             </main>

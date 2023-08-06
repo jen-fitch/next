@@ -7,8 +7,8 @@ import Page from '../styles/Page.module.css'
 
 const menu = [
     { title: 'Portfolio', path: '/' },
-    { title: 'Résumé', path: '/resume' },
     { title: 'Philosophy', path: '/philosophy' },
+    { title: 'Résumé', path: '/resume' },
 ]
 
 export default function Resume() {
