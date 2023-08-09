@@ -105,6 +105,38 @@ export default function Portfolio() {
                 </div>
                 <div className={Cards.grid}>
                     <div className={Cards.card}>
+                        <Link href="https://www.figma.com/proto/iHQs4WnivGAYTQ5tYTRsP4/HAF?page-id=106%3A2&type=design&node-id=406-2&viewport=137%2C191%2C0.07&t=m9OiaABeR9roAvIh-1&scaling=min-zoom&starting-point-node-id=126%3A2&mode=design" passHref>
+                            <Image
+                                src="/images/portfolio/haf.jpg"
+                                alt="screenshots of website"
+                                width={500}
+                                height={250}
+                                className={"pointer"}
+                            />
+                        </Link>
+                        <div className={Cards.info}>
+                            <h2 className={Cards.title}>Humboldt Area Foundation</h2>
+                            <p className={Cards.text}>
+                                <strong>Drupal 7 </strong><br/>
+                                Overall Website strategy<br />
+                                Research for architecture<br />
+                                Project management<br />
+                                Consultation on goals<br/>
+                                Full website design<br/>
+                                Custom WordPress theme<br/>
+                                Full site build<br />
+                                Custom post types and templates<br/>
+
+                            </p>
+                            <p className={Cards.text}>
+                                {/*<a href="#">List of all Websites</a><br/><br/>*/}
+                                <strong>Design:</strong> <a href="https://www.figma.com/proto/iHQs4WnivGAYTQ5tYTRsP4/HAF?page-id=106%3A2&type=design&node-id=406-2&viewport=137%2C191%2C0.07&t=m9OiaABeR9roAvIh-1&scaling=min-zoom&starting-point-node-id=126%3A2&mode=design">Full Website - Figma</a><br/>
+                                {/*/!*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*!/*/}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className={Cards.card}>
                         <Link href="https://www.figma.com/proto/81UGD0JNFwb2MI2dhKARvH/CNRS-theme-color-palettes?page-id=186%3A2&node-id=239%3A0&viewport=241%2C48%2C0.11&scaling=min-zoom&starting-point-node-id=239%3A0" passHref>
                             <Image
                                 src="/images/portfolio/depttheme.jpg"
