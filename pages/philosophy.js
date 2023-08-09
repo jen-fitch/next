@@ -73,7 +73,7 @@ export default function Philosophy() {
                 <div className={Layout.row}>
                     <div className={Layout.left}>
                         <h2>Honest Design = Positive Experiences</h2>
-                        <p>I am passionate about my job for many reasons but the most important reason is that honest interactions build trust and positive experiences. In turn, this helps my clients meet their needs in a sustainable way and to develop long term relationships with their users.</p>
+                        <p>I am passionate about my job for many reasons but the most important reason is that honest interactions build trust and positive experiences. In turn, this helps my clients meet their needs in a sustainable way and also helps them develop long term relationships with their users.</p>
                         {/*<h2></h2>If I can help make someone (or a thousand someones) day more fluid, I believe that is a success.</p>*/}
                         {/*<p>With research, good design, content organization, and time spent polishing content, I develop websites that solve problems and are easy to understand.</p>*/}
                         <h2>Building Seamless Experiences</h2>
