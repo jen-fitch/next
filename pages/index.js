@@ -259,34 +259,34 @@ export default function Portfolio() {
                             </p>
                         </div>
                     </div>
-                    <div className={Cards.card}>
-                        <a href="https://www.jewelldistillery.com/">
-                            <Image
-                                src="/images/portfolio/jewell2.jpg"
-                                alt="Michael standing in front of his still"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-                            <h2 className={Cards.title}>Jewell Distillery</h2>
-                            <p className={Cards.text}>
-                                <strong>Drupal 8</strong><br/>
-                                Bootstrap WP child theme<br/>
-                                Custom post types<br/>
-                                PHP template files<br/>
-                                Product photography<br/>
-                                Figma full site design<br/>
-                                Custom sitemap<br/>
-                                Assistance with logo & graphics<br/>
+                    {/*<div className={Cards.card}>*/}
+                    {/*    <a href="https://www.jewelldistillery.com/">*/}
+                    {/*        <Image*/}
+                    {/*            src="/images/portfolio/jewell2.jpg"*/}
+                    {/*            alt="Michael standing in front of his still"*/}
+                    {/*            width={500}*/}
+                    {/*            height={250}*/}
+                    {/*        />*/}
+                    {/*    </a>*/}
+                    {/*    <div className={Cards.info}>*/}
+                    {/*        <h2 className={Cards.title}>Jewell Distillery</h2>*/}
+                    {/*        <p className={Cards.text}>*/}
+                    {/*            <strong>Drupal 8</strong><br/>*/}
+                    {/*            Bootstrap WP child theme<br/>*/}
+                    {/*            Custom post types<br/>*/}
+                    {/*            PHP template files<br/>*/}
+                    {/*            Product photography<br/>*/}
+                    {/*            Figma full site design<br/>*/}
+                    {/*            Custom sitemap<br/>*/}
+                    {/*            Assistance with logo & graphics<br/>*/}
 
-                            </p>
-                            <p className={Cards.text}>
-                                <a href="https://www.jewelldistillery.com/">jewelldistillery.com</a><br/><br/>
-                                <strong>Design:</strong> <a href="https://www.figma.com/proto/0wwHgCMoBv39HXw3Tlf3xnOH/JD-Website-Mockup?node-id=106%3A2&viewport=140%2C238%2C0.1249595358967781&scaling=min-zoom">Jewell Distillery - Figma</a>
-                            </p>
-                        </div>
-                    </div>
+                    {/*        </p>*/}
+                    {/*        <p className={Cards.text}>*/}
+                    {/*            <a href="https://www.jewelldistillery.com/">jewelldistillery.com</a><br/><br/>*/}
+                    {/*            <strong>Design:</strong> <a href="https://www.figma.com/proto/0wwHgCMoBv39HXw3Tlf3xnOH/JD-Website-Mockup?node-id=106%3A2&viewport=140%2C238%2C0.1249595358967781&scaling=min-zoom">Jewell Distillery - Figma</a>*/}
+                    {/*        </p>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
 
                     <div className={Cards.card}>
