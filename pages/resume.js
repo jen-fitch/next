@@ -8,7 +8,7 @@ import Page from '../styles/Page.module.css'
 const menu = [
     { title: 'Portfolio', path: '/' },
     { title: 'Philosophy', path: '/philosophy' },
-    { title: 'Résumé', path: '/resume' },
+    { title: 'Résumé', path: '/pdf/jenniferFitch_resume.pdf' },
 ]
 
 export default function Resume() {

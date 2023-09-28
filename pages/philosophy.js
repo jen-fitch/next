@@ -8,7 +8,7 @@ import Page from '../styles/Page.module.css'
 const menu = [
     { title: 'Portfolio', path: '/' },
     { title: 'Philosophy', path: '/philosophy' },
-    { title: 'Résumé', path: '/resume' },
+    { title: 'Résumé', path: '/pdf/jenniferFitch_resume.pdf' },
 ]
 
 export default function Philosophy() {
@@ -96,7 +96,7 @@ export default function Philosophy() {
                 </div>
 
                 <div className={Layout.row}>
-                    <p><a href={"/resume"}>View Jen&apos;s resume</a></p>
+                    <p><a href={"/pdf/jenniferFitch_resume.pdf"}>View Jen&apos;s resume</a></p>
                     <Link href="tel:17076316934">
                         <a>(707) 631-6934</a>
                     </Link>
