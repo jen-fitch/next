@@ -105,7 +105,40 @@ export default function Portfolio() {
                 </div>
                 <div className={Cards.grid}>
                     <div className={Cards.card}>
-                        <Link href="https://www.figma.com/proto/iHQs4WnivGAYTQ5tYTRsP4/HAF?page-id=106%3A2&type=design&node-id=406-2&viewport=137%2C191%2C0.07&t=m9OiaABeR9roAvIh-1&scaling=min-zoom&starting-point-node-id=126%3A2&mode=design" passHref>
+                        <Link href="https://humboldt.edu" passHref>
+                            <Image
+                                src="/images/portfolio/humboldt.jpg"
+                                alt="screenshots of website"
+                                width={500}
+                                height={250}
+                                className={"pointer"}
+                            />
+                        </Link>
+                        <div className={Cards.info}>
+                            <h2 className={Cards.title}>Cal Poly Humboldt</h2>
+                            <p className={Cards.text}>
+                                <strong>Drupal 9 </strong><br/>
+                                Assisted with content strategy<br />
+                                Content organization<br />
+                                Sitemap building <br />
+                                Assisted with site build<br />
+                                Redirect implementation<br />
+                                Relaying feedback to agency partner<br/>
+                                Worked intimately with PM<br />
+                                Assisted with implementing strategy<br />
+                                Rebranded over 100 sub sites<br/>
+
+                            </p>
+                            <p className={Cards.text}>
+                                {/*<a href="#">List of all Websites</a><br/><br/>*/}
+                                <strong>Website:</strong> <a href="https://humboldt.edu">humboldt.edu</a><br/>
+                                {/*/!*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*!/*/}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className={Cards.card}>
+                        <Link href="https://hafoundation.org" passHref>
                             <Image
                                 src="/images/portfolio/haf.jpg"
                                 alt="screenshots of website"
@@ -130,6 +163,7 @@ export default function Portfolio() {
                             </p>
                             <p className={Cards.text}>
                                 {/*<a href="#">List of all Websites</a><br/><br/>*/}
+                                <strong>Website:</strong> <a href="https://hafoundation.org">hafoundation.org</a><br/>
                                 <strong>Design:</strong> <a href="https://www.figma.com/proto/iHQs4WnivGAYTQ5tYTRsP4/HAF?page-id=106%3A2&type=design&node-id=406-2&viewport=137%2C191%2C0.07&t=m9OiaABeR9roAvIh-1&scaling=min-zoom&starting-point-node-id=126%3A2&mode=design">Full Website - Figma</a><br/>
                                 {/*/!*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*!/*/}
                             </p>
@@ -153,10 +187,8 @@ export default function Portfolio() {
                                 Comprehensive content inventories<br />
                                 Research for architecture<br />
                                 Analytics research for usage<br />
-                                Site structure template<br/>
-                                Homepage design & template<br/>
+                                Homepage design & site structure<br/>
                                 Three color palettes<br/>
-                                Organizing content for each site<br/>
                                 Collaborating with content creators<br />
                                 Photo research and choices<br/>
                                 Content types & views<br/>
@@ -194,7 +226,7 @@ export default function Portfolio() {
                                 Agent post type
                             </p>
                             <p className={Cards.text}>
-                                <a href="https://www.humboldtlandman.com/">humboldtlandman.com</a><br/><br/>
+                                <strong>Website:</strong> <a href="https://www.humboldtlandman.com/">humboldtlandman.com</a><br/>
                                 <strong>Design:</strong> <a href="https://www.figma.com/proto/f0odyM3HbwfkmmKpm0JyPS/website?node-id=1%3A1028&viewport=823%2C182%2C0.125&scaling=min-zoom">Land Man - Figma</a><br/>
                                 {/*<strong>Case Study:</strong> <a href="#">The Land Man Office</a>*/}
                             </p>
@@ -227,7 +259,7 @@ export default function Portfolio() {
                                 Figma homepage layout<br/>
                             </p>
                             <p className={Cards.text}>
-                                <a href="https://registrar.humboldt.edu/">registrar.humboldt.edu</a><br/><br/>
+                                <strong>Website:</strong> <a href="https://registrar.humboldt.edu/">registrar.humboldt.edu</a><br/>
                                 <strong>Sitemap & Design:</strong> <a href="https://www.figma.com/proto/PK4yKE34iPOCtcuGCQhS3f/registrar.humboldt.edu?page-id=0%3A1&node-id=146%3A186&viewport=241%2C48%2C0.08&scaling=min-zoom">Registrar - Figma</a>
                             </p>
                         </div>
@@ -253,7 +285,7 @@ export default function Portfolio() {
                                 Photo research & selection
                             </p>
                             <p className={Cards.text}>
-                                <a href="https://impact.humboldt.edu/">impact.humboldt.edu</a><br/><br/>
+                                <strong>Website:</strong> <a href="https://impact.humboldt.edu/">impact.humboldt.edu</a><br/>
                                 <strong>Design:</strong> <a href="https://www.figma.com/proto/VAic44leZYZcW1nLaDXY9T/impact.humboldt.edu?page-id=63%3A2&node-id=63%3A3&viewport=241%2C48%2C0.12&scaling=scale-down">Economic Impact - Figma</a><br/>
                                 {/*<strong>Case Study:</strong> <a href="#">Economic Impact Report</a>*/}
                             </p>
@@ -313,7 +345,7 @@ export default function Portfolio() {
                                 Provided Photography
                             </p>
                             <p className={Cards.text}>
-                                <a href="https://jmcktaxes.com/">jmcktaxes.com</a><br/><br/>
+                                <strong>Website:</strong> <a href="https://jmcktaxes.com/">jmcktaxes.com</a><br/>
                                 <strong>Colors:</strong> <a href="https://www.figma.com/proto/DbAMKbrf8V9oogPKtm1lTo/Jessica-McKnight?node-id=82%3A299&viewport=749%2C439%2C0.06971913576126099&scaling=min-zoom">JMCK - Figma (colors)</a><br/>
                                 <strong>Design:</strong> <a href="https://www.figma.com/proto/DbAMKbrf8V9oogPKtm1lTo/Jessica-McKnight?node-id=163%3A63&viewport=1314%2C1040%2C0.12526367604732513&scaling=min-zoom">JMCK - Figma</a><br/>
                                 {/*<strong>Case Study:</strong> <a href="#">Jessica McKnight</a>*/}

@@ -16,7 +16,7 @@ export default function Philosophy() {
     return (
         <div>
             <Head>
-                <title>Jenifer Fitch - Philosophy</title>
+                <title>Jennifer Fitch - Philosophy</title>
                 <meta name="description" content="Philosophy" />
             </Head>
 
@@ -73,13 +73,14 @@ export default function Philosophy() {
                 <div className={Layout.row}>
                     <div className={Layout.left}>
                         <h2>Honest Design = Positive Experiences</h2>
-                        <p>I am passionate about my job for many reasons but the most important reason is that honest interactions build trust and positive experiences. In turn, this helps my clients meet their needs in a sustainable way and also helps them develop long term relationships with their users.</p>
+                        <p>I am passionate about my job for many reasons. However, main reason is honest interactions build trust which in turn creates a more positive experience. This is the backbone of why I design. Honesty, trust, and positive expeiences.</p>
                         {/*<h2></h2>If I can help make someone (or a thousand someones) day more fluid, I believe that is a success.</p>*/}
                         {/*<p>With research, good design, content organization, and time spent polishing content, I develop websites that solve problems and are easy to understand.</p>*/}
-                        <h2>Building Seamless Experiences</h2>
-                        <p>A seamless experience reflects positively on a brand or product and helps build a company&apos;s reputation. This indirectly tells the user you care about their needs, respect their time, and know how to solve problems. The majority of an amazing website is invisible to the user and will be subconsciously digested to develop a positive overall experience.</p>
                         <h2>Understanding User&apos;s Needs</h2>
                         <p>Successful websites must start with understanding the audience&apos;s needs and this is done by caring about their experience, valuing their time, and understanding the problems that need to be solved.</p>
+                        <h2>Building Seamless Experiences</h2>
+                        <p>A seamless experience reflects positively on a brand or product and helps build a company&apos;s reputation. This indirectly tells the user you care about their needs, respect their time, and know how to solve problems. The majority of an amazing website is invisible to the user and will be subconsciously digested to develop a positive overall experience.</p>
+
                         <h2>Caring. Respect. Problem Solving.</h2>
                         <p>This is the foundation for why I am passionate about user experience design. These qualities create trust and a positive relationships. Design that people trust builds loyalty.</p>
                         {/*<h2>Collaboration</h2>*/}
