@@ -24,16 +24,13 @@ export default function Philosophy() {
                 <nav className={Page.main}>
                     {menu.map((item, index) => {
                         return (
-                            <Link key={index} href={item.path}>
-                                <a
-                                    className={`nav-item ${
-                                        router.pathname === item.path
-                                            ? 'active'
-                                            : ''
-                                    }`}
-                                >
-                                    {item.title}
-                                </a>
+                            <Link key={index} href={item.path} className={`nav-item ${
+                                router.pathname === item.path
+                                    ? 'active'
+                                    : ''
+                            }`}
+                            >
+                                {item.title}
                             </Link>
                         )
                     })}
@@ -42,26 +39,24 @@ export default function Philosophy() {
 
             <header className={`${Layout.logo_wrap}`}>
                 <div className={Page.logo}>
-                    <Link href="/">
-                        <a>
+                    <Link href="/" passHref>
                             <Image
                                 src="/images/logo.png"
                                 alt="J.Fitch Logo"
                                 width={377*.5}
                                 height={92*.5}
                             />
-                        </a>
                     </Link>
                 </div>
                 <p className={Page.about}>
                     {' '}
                     <Link href="tel:17076316934">
-                        <a>(707) 631-6934</a>
+                        (707) 631-6934
                     </Link>
                     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
                     {' '}
                     <Link href="mailto:jenfitch4@gmail.com">
-                        <a>jenfitch4@gmail.com</a>
+                        jenfitch4@gmail.com
                     </Link>
 
                 </p>
@@ -97,14 +92,14 @@ export default function Philosophy() {
                 </div>
 
                 <div className={Layout.row}>
-                    <p><a href={"/pdf/jenniferFitch_resume.pdf"}>View Jen&apos;s resume</a></p>
+                    <p><Link href="/pdf/jenniferFitch_resume.pdf">View Jen&apos;s resume</Link></p>
                     <Link href="tel:17076316934">
-                        <a>(707) 631-6934</a>
+                        (707) 631-6934
                     </Link>
                     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
                     {' '}
                     <Link href="mailto:jenfitch4@gmail.com">
-                        <a>jenfitch4@gmail.com</a>
+                        jenfitch4@gmail.com
                     </Link>
                 </div>
             </main>

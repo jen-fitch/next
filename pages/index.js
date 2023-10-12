@@ -26,16 +26,13 @@ export default function Portfolio() {
                 <nav className={Page.main}>
                     {menu.map((item, index) => {
                         return (
-                            <Link key={index} href={item.path}>
-                                <a
-                                    className={`nav-item ${
-                                        router.pathname === item.path
-                                            ? 'active'
-                                            : ''
-                                    }`}
-                                >
+                            <Link key={index} href={item.path} className={`nav-item ${
+                                router.pathname === item.path
+                                    ? 'active'
+                                    : ''
+                            }`}
+                            >
                                     {item.title}
-                                </a>
                             </Link>
                         )
                     })}
@@ -44,26 +41,24 @@ export default function Portfolio() {
 
             <header className={`${Layout.logo_wrap}`}>
                 <div className={Page.logo}>
-                    <Link href="/">
-                        <a>
+                    <Link href="/" passHref>
                             <Image
                                 src="/images/logo.png"
                                 alt="J.Fitch Logo"
                                 width={377*.5}
                                 height={92*.5}
                             />
-                        </a>
                     </Link>
                 </div>
                 <p className={Page.about}>
                     {' '}
                     <Link href="tel:17076316934">
-                        <a>(707) 631-6934</a>
+                        (707) 631-6934
                     </Link>
                     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
                     {' '}
                     <Link href="mailto:jenfitch4@gmail.com">
-                        <a>jenfitch4@gmail.com</a>
+                        jenfitch4@gmail.com
                     </Link>
 
                 </p>
@@ -78,28 +73,28 @@ export default function Portfolio() {
                     <p className={Page.description}>
                         All sites below are designed with {' '}
                         <Link href="https://www.figma.com/">
-                            <a>Figma</a>
+                            Figma
                         </Link>, built with {' '}
                         <Link href="https://drupal.org/">
-                            <a>Drupal</a>
+                            Drupal
                         </Link> or {' '}
                         <Link href="https://wordpress.org/">
-                            <a>Wordpress</a>
+                            Wordpress
                         </Link>, and hosted on {' '}
                         <Link href="https://pantheon.io/">
-                            <a>Pantheon</a>
+                            Pantheon
                         </Link>.
                     </p>
                     <p className={Page.description}>
                         Cal Poly Humboldt projects and case studies available upon request. Email:
                         {' '} <Link href="mailto:jenfitch4@gmail.com?subject=From website: Cal Poly Humboldt Project Request">
-                            <a>jenfitch4@gmail.com</a>
+                            jenfitch4@gmail.com
                         </Link>
                     </p>
                     <p className={Page.description}>
                         Graphic design, logo design, animation, and email design examples available upon request. Email:
                         {' '} <Link href="mailto:jenfitch4@gmail.com?subject=From website: Graphic Design Example Request">
-                            <a>jenfitch4@gmail.com</a>
+                            jenfitch4@gmail.com
                         </Link>
                     </p>
                 </div>
@@ -130,7 +125,6 @@ export default function Portfolio() {
 
                             </p>
                             <p className={Cards.text}>
-                                {/*<a href="#">List of all Websites</a><br/><br/>*/}
                                 <strong>Website:</strong> <a href="https://humboldt.edu">humboldt.edu</a><br/>
                                 {/*/!*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*!/*/}
                             </p>
@@ -195,9 +189,7 @@ export default function Portfolio() {
                                 Building 19 full sites
                             </p>
                             <p className={Cards.text}>
-                                {/*<a href="#">List of all Websites</a><br/><br/>*/}
-                                <strong>Design:</strong> <a href="https://www.figma.com/proto/81UGD0JNFwb2MI2dhKARvH/CNRS-theme-color-palettes?page-id=186%3A2&node-id=239%3A0&viewport=241%2C48%2C0.11&scaling=min-zoom&starting-point-node-id=239%3A0">Academic Theme - Figma</a><br/>
-                                {/*/!*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*!/*/}
+                                <strong>Design:</strong> <Link href="https://www.figma.com/proto/81UGD0JNFwb2MI2dhKARvH/CNRS-theme-color-palettes?page-id=186%3A2&node-id=239%3A0&viewport=241%2C48%2C0.11&scaling=min-zoom&starting-point-node-id=239%3A0">Academic Theme - Figma</Link><br/>
                             </p>
                         </div>
                     </div>
@@ -228,7 +220,6 @@ export default function Portfolio() {
                             <p className={Cards.text}>
                                 <strong>Website:</strong> <a href="https://www.humboldtlandman.com/">humboldtlandman.com</a><br/>
                                 <strong>Design:</strong> <a href="https://www.figma.com/proto/f0odyM3HbwfkmmKpm0JyPS/website?node-id=1%3A1028&viewport=823%2C182%2C0.125&scaling=min-zoom">Land Man - Figma</a><br/>
-                                {/*<strong>Case Study:</strong> <a href="#">The Land Man Office</a>*/}
                             </p>
                         </div>
                     </div>
@@ -361,7 +352,7 @@ export default function Portfolio() {
             <footer className={Layout.footer}>
                 {' '}
                 <Link href="https://www.linkedin.com/in/jeniferfitch/">
-                    <a>LinkedIn Profile</a>
+                    LinkedIn Profile
                 </Link>
             </footer>
         </div>
