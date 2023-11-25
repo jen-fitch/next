@@ -8,7 +8,7 @@ import Cards from '../styles/Cards.module.css'
 
 const menu = [
     { title: 'Portfolio', path: '/' },
-    { title: 'Philosophy', path: '/philosophy' },
+   /* { title: 'Philosophy', path: '/philosophy' },*/
     { title: 'Résumé', path: '/pdf/jenniferFitch_resume.pdf' },
 ]
 
