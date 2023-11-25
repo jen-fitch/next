@@ -351,7 +351,7 @@ export default function Portfolio() {
 
             <footer className={Layout.footer}>
                 {' '}
-                <Link href="https://www.linkedin.com/in/jeniferfitch/">
+                <Link href="https://www.linkedin.com/in/jenniferfitch2/">
                     LinkedIn Profile
                 </Link>
             </footer>
