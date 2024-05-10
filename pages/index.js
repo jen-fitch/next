@@ -51,10 +51,6 @@ export default function Portfolio() {
                     </Link>
                 </div>
                 <p className={Page.about}>
-                    {' '}
-                    <Link href="tel:17076316934">
-                        (707) 631-6934
-                    </Link>
                     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
                     {' '}
                     <Link href="mailto:jenfitch4@gmail.com">

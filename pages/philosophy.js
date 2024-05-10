@@ -93,9 +93,6 @@ export default function Philosophy() {
 
                 <div className={Layout.row}>
                     <p><Link href="/pdf/jenniferFitch_resume.pdf">View Jen&apos;s resume</Link></p>
-                    <Link href="tel:17076316934">
-                        (707) 631-6934
-                    </Link>
                     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
                     {' '}
                     <Link href="mailto:jenfitch4@gmail.com">
