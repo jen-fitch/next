@@ -51,7 +51,6 @@ export default function Portfolio() {
                     </Link>
                 </div>
                 <p className={Page.about}>
-                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
                     {' '}
                     <Link href="mailto:jenfitch4@gmail.com">
                         jenfitch4@gmail.com
