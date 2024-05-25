@@ -64,7 +64,6 @@ export default function Portfolio() {
                         <div className={Cards.info}>
 
                             <p className={Cards.text}>
-                                <strong>Drupal 9 </strong><br/>
                                 Rebranding / Rebuilding <a href="https://humboldt.edu">humboldt.edu</a><br/>
                                 Content strategy partner<br/>
                                 Site building partner<br/>
@@ -72,7 +71,7 @@ export default function Portfolio() {
                                 Worked closely with agency & PM<br/>
                                 Assisted with implementing strategy<br/>
                                 Rebranded over 200 sub sites<br/>
-                                Assising with 200 website migration (CURRENT)
+                                Assisting with 200 website migration (CURRENT)
 
                             </p>
                             <p className={Cards.text}>
@@ -94,7 +93,6 @@ export default function Portfolio() {
                         </Link>
                         <div className={Cards.info}>
                             <p className={Cards.text}>
-                                <strong>Drupal 7 </strong><br/>
                                 Overall Website strategy<br/>
                                 Research for architecture<br/>
                                 Project management<br/>
@@ -128,7 +126,6 @@ export default function Portfolio() {
                         <div className={Cards.info}>
 
                             <p className={Cards.text}>
-                                <strong>Wordpress</strong><br/>
                                 Consultation<br/>
                                 Rebuilding from Drupal to Wordpress<br/>
                                 Theme & plugin research<br/>
@@ -162,8 +159,6 @@ export default function Portfolio() {
                         <div className={Cards.info}>
 
                             <p className={Cards.text}>
-                                <strong>Drupal 7</strong><br/>
-                                Utilized Drupal profile/distribution<br/>
                                 Consultation & Design Research<br/>
                                 Full content inventory<br/>
                                 New sitemap based on research<br/>
@@ -193,7 +188,6 @@ export default function Portfolio() {
                         </a>
                         <div className={Cards.info}>
                             <p className={Cards.text}>
-                                <strong>Drupal 7</strong><br/>
                                 Complex report design<br/>
                                 Unique homepage layout<br/>
                                 Built custom report navigation<br/>
@@ -222,8 +216,7 @@ export default function Portfolio() {
                         <div className={Cards.info}>
 
                             <p className={Cards.text}>
-                                <strong>Drupal 8</strong><br/>
-                                Bootstrap WP child theme<br/>
+                                Custom Wordpress theme<br/>
                                 Custom post types<br/>
                                 PHP template files<br/>
                                 Product photography<br/>
@@ -254,8 +247,7 @@ export default function Portfolio() {
                         <div className={Cards.info}>
 
                             <p className={Cards.text}>
-                                <strong>Wordpress</strong><br/>
-                                Bootstrap WP child theme<br/>
+                                Custom Wordpress theme<br/>
                                 Custom resource section<br/>
                                 PHP template files<br/>
                                 Organized content<br/>
