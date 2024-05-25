@@ -33,16 +33,18 @@ export default function Portfolio() {
                 </div>
 
                 <div className={Page.about}>
-                    {' '}
                     <p>
+                        <Link href="https://www.linkedin.com/in/jenniferfitch2/">
+                            LinkedIn Profile
+                        </Link>
+                    </p>
+                    <p>
+                        {' '}
                         <Link href="tel:7075720980">
                             (707) 572-0980 &nbsp;
                         </Link><span> | </span>&nbsp;
                         <Link href="mailto:jenfitch4@gmail.com">
                             jenfitch4@gmail.com &nbsp;
-                        </Link><span> | </span>&nbsp;
-                        <Link href="https://www.linkedin.com/in/jenniferfitch2/">
-                            LinkedIn Profile
                         </Link>
                     </p>
                 </div>
