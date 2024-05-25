@@ -39,7 +39,7 @@ export default function Portfolio() {
                             (707) 572-0980 &nbsp;
                         </Link><span> | </span>&nbsp;
                         <Link href="mailto:jenfitch4@gmail.com">
-                            contact@jennifer-fitch.com &nbsp;
+                            jenfitch4@gmail.com &nbsp;
                         </Link><span> | </span>&nbsp;
                         <Link href="https://www.linkedin.com/in/jenniferfitch2/">
                             LinkedIn Profile
