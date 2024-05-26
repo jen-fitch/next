@@ -1,19 +1,45 @@
 /* logo and header info */
-.logo h1 {
-  padding: 0;
-  margin: 0;
-  font-size: 40px;
-  font-weight: 300;
-  color: #000;
-  text-align: center;
-}
-.logo p{
-  margin: 0;
+.logo p {
+  color: #999;
+  margin: 0 auto;
+  padding: 0 0 0 5px;
+  width: 350px;
   font-family: courier, monospace;
   text-align: center;
+  letter-spacing: 1px;
 }
 
-.about {
-  margin: 10px 0;
+.logo h1 {
+  margin: 0 auto 10px;
+  padding: 0 0 10px 5px;
+  font-size: 42px;
+  font-weight: 300;
   text-align: center;
+  border-bottom: .25px solid #000;
+  width: auto;
+  max-width: 370px;
+}
+
+
+.about {
+  margin: 10px 0 0;
+  text-align: center;
+  color: #999;
+  padding: 0 0 0 5px;
+}
+
+.about a {
+  color: #999;
+}
+
+.about a:hover {
+  color: #666;
+}
+
+.about p {
+  margin: 0 0 10px;
+
+}
+.about span {
+  color: #c6c6c6;
 }

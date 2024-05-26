@@ -28,24 +28,28 @@ export default function Portfolio() {
 
             <header className={`${Layout.logo_wrap}`}>
                 <div className={Page.logo}>
-                        <h1>JENNIFER FITCH</h1>
-                        <p>Freelance Website Professional</p>
+                    <p>Freelance Website Professional</p>
+                    <h1>JENNIFER FITCH</h1>
+
                 </div>
 
                 <div className={Page.about}>
                     <p>
                         <Link href="https://www.linkedin.com/in/jenniferfitch2/">
-                            LinkedIn Profile
+                            LinkedIn
+                        </Link>
+                        <span>&nbsp; | &nbsp;</span>
+                        <Link href="mailto:jenfitch4@gmail.com">
+                            Email
+                        </Link>
+                        <span>&nbsp; | &nbsp;</span>
+                        <Link href="tel:7075720980">
+                            (707) 572-0980
                         </Link>
                     </p>
                     <p>
-                        {' '}
-                        <Link href="tel:7075720980">
-                            (707) 572-0980 &nbsp;
-                        </Link><span> | </span>&nbsp;
-                        <Link href="mailto:jenfitch4@gmail.com">
-                            jenfitch4@gmail.com &nbsp;
-                        </Link>
+
+
                     </p>
                 </div>
             </header>
@@ -93,21 +97,20 @@ export default function Portfolio() {
                         </Link>
                         <div className={Cards.info}>
                             <p className={Cards.text}>
-                                Overall Website strategy<br/>
-                                Research for architecture<br/>
+                                Website redesign<br/>
+                                Website architecture<br/>
                                 Project management<br/>
                                 Consultation on goals<br/>
-                                Full website design<br/>
+                                Website design<br/>
                                 Custom WordPress theme<br/>
-                                Full site build<br/>
-                                Custom post types and templates<br/>
+                                Site build
 
                             </p>
                             <p className={Cards.text}>
                                 {/*<a href="#">List of all Websites</a><br/><br/>*/}
                                 <strong>Website:</strong> <a href="https://hafoundation.org">hafoundation.org</a><br/>
                                 <strong>Design:</strong> <a
-                                href="https://www.figma.com/proto/iHQs4WnivGAYTQ5tYTRsP4/HAF?page-id=106%3A2&type=design&node-id=406-2&viewport=137%2C191%2C0.07&t=m9OiaABeR9roAvIh-1&scaling=min-zoom&starting-point-node-id=126%3A2&mode=design">Full
+                                href="https://www.figma.com/proto/iHQs4WnivGAYTQ5tYTRsP4/HAF?page-id=106%3A2&type=design&node-id=406-2&viewport=137%2C191%2C0.07&t=m9OiaABeR9roAvIh-1&scaling=min-zoom&starting-point-node-id=126%3A2&mode=design">
                                 Website - Figma</a><br/>
                                 {/*/!*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*!/*/}
                             </p>
@@ -126,15 +129,14 @@ export default function Portfolio() {
                         <div className={Cards.info}>
 
                             <p className={Cards.text}>
-                                Consultation<br/>
-                                Rebuilding from Drupal to Wordpress<br/>
-                                Theme & plugin research<br/>
+                                Migration strategy<br/>
+                                Rebuild from Drupal to Wordpress<br/>
+                                Theme & plugin research/implementation<br/>
                                 Design sketches & mockups<br/>
-                                Figma full site design<br/>
+                                Website design<br/>
                                 Organizing MLS layout<br/>
                                 MLS & custom real estate listings<br/>
-                                Troubleshooting and themeing MLS<br/>
-                                Agent post type
+                                Troubleshooting and theming MLS
                             </p>
                             <p className={Cards.text}>
                                 <strong>Website:</strong> <a
@@ -160,13 +162,14 @@ export default function Portfolio() {
 
                             <p className={Cards.text}>
                                 Consultation & Design Research<br/>
-                                Full content inventory<br/>
+                                Content inventory<br/>
                                 New sitemap based on research<br/>
                                 Organizing content<br/>
                                 Gathering & migrating content<br/>
                                 Content types & views<br/>
                                 Photo research & selection<br/>
-                                Figma homepage layout<br/>
+                                Homepage layout<br/>
+                                Homepage layout<br/>
                             </p>
                             <p className={Cards.text}>
                                 <strong>Website:</strong> <a
@@ -192,7 +195,7 @@ export default function Portfolio() {
                                 Unique homepage layout<br/>
                                 Built custom report navigation<br/>
                                 Themed in Drupal<br/>
-                                Figma homepage layout<br/>
+                                Homepage layout<br/>
                                 Photo research & selection
                             </p>
                             <p className={Cards.text}>
@@ -220,13 +223,14 @@ export default function Portfolio() {
                                 Custom post types<br/>
                                 PHP template files<br/>
                                 Product photography<br/>
-                                Figma full site design<br/>
+                                Website design<br/>
                                 Custom sitemap<br/>
                                 Assistance with logo & graphics<br/>
 
                             </p>
                             <p className={Cards.text}>
-                                <a href="https://www.jewelldistillery.com/">jewelldistillery.com</a><br/><br/>
+                                <strong>Website:</strong> <a
+                                href="https://www.jewelldistillery.com/">jewelldistillery.com</a><br/>
                                 <strong>Design:</strong> <a
                                 href="https://www.figma.com/proto/0wwHgCMoBv39HXw3Tlf3xnOH/JD-Website-Mockup?node-id=106%3A2&viewport=140%2C238%2C0.1249595358967781&scaling=min-zoom">Jewell
                                 Distillery - Figma</a>
@@ -252,7 +256,7 @@ export default function Portfolio() {
                                 PHP template files<br/>
                                 Organized content<br/>
                                 Color exploration<br/>
-                                Figma full site design<br/>
+                                Website design<br/>
                                 {/*Theme built on <Link href="https://understrap.com/"><a>Understrap</a></Link><br/>*/}
                                 Site build<br/>
                                 Provided Photography
