@@ -28,7 +28,7 @@ export default function Portfolio() {
 
             <header className={`${Layout.logo_wrap}`}>
                 <div className={Page.logo}>
-                    <p>Freelance Website Professional</p>
+                    <p>Web Designer, Front-end Web Developer, Project Manager, and Consultant</p>
                     <h1>JENNIFER FITCH</h1>
 
                 </div>
@@ -74,8 +74,7 @@ export default function Portfolio() {
                                 Redirect implementation<br/>
                                 Worked closely with agency & PM<br/>
                                 Assisted with implementing strategy<br/>
-                                Rebranded over 200 sub sites<br/>
-                                Assisting with 200 website migration (CURRENT)
+                                Rebranded over 200 sub sites
 
                             </p>
                             <p className={Cards.text}>
