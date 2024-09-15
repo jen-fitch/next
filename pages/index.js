@@ -29,14 +29,25 @@ export default function Portfolio() {
             <header className={`${Layout.logo_wrap}`}>
                 <div className={Page.logo}>
                     <p>Web Designer, Front-end Web Developer, Project Manager, and Consultant</p>
+                    <div className={`${Layout.header_image}`}>
+                        <Image
+                            src="/images/jen-portrait-square.jpg"
+                            alt="portrait of Jen"
+                            width={150}
+                            height={150}
+                            className={"circle"}
+                        /></div>
                     <h1>JENNIFER FITCH</h1>
-
                 </div>
 
                 <div className={Page.about}>
                     <p>
                         <Link href="https://www.linkedin.com/in/jenniferfitch2/">
                             LinkedIn
+                        </Link>
+                        <span>&nbsp; | &nbsp;</span>
+                        <Link href="/pdf/jenniferFitch_resume_2024.pdf">
+                            Résumé
                         </Link>
                         <span>&nbsp; | &nbsp;</span>
                         <Link href="mailto:jenfitch4@gmail.com">
