@@ -297,10 +297,7 @@ export default function Portfolio() {
                                         Website redesign<br/>
                                         Website architecture<br/>
                                         Project management<br/>
-                                        Consultation on goals<br/>
-                                        Website design<br/>
-                                        Custom WordPress theme<br/>
-                                        Site build
+                                        Consultation on goals
                                     </p>
                                     <p className={Cards.text}>
                                         <strong>Website:</strong> <a href="https://hafoundation.org">hafoundation.org</a><br/>
