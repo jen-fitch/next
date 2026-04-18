@@ -37,7 +37,7 @@ export default function Portfolio() {
                     <p>
                         <Link href="https://www.linkedin.com/in/jenniferfitch2/">LinkedIn</Link>
                         <span>&nbsp; | &nbsp;</span>
-                        <Link href="/pdf/jenniferFitch_resume_2024.pdf">Résumé</Link>
+                        <Link href="/pdf/jennifer-fitch_resume_2026.pdf">Résumé</Link>
                         <span>&nbsp; | &nbsp;</span>
                         <Link href="mailto:jenfitch4@gmail.com">Email</Link>
                         <span>&nbsp; | &nbsp;</span>
