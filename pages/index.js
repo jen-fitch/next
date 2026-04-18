@@ -67,9 +67,9 @@ export default function Portfolio() {
                     <h2 className={Resume.sectionHeading}>Core Competencies</h2>
                     <div className={Cards.grid}>
                         <div className={Resume.competencyCard}>
-                            <h3>Infrastructure Management &amp; Workflow Development</h3>
+                            <h3>Web Infrastructure Management &amp; Workflow Development</h3>
                             <p>
-                                Enterprise infrastructure management, large-scale migration expertise, and
+                                Enterprise web infrastructure management, large-scale migration expertise, and
                                 workflow optimization backed by measurable outcomes.
                             </p>
                         </div>
