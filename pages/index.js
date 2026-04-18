@@ -51,15 +51,15 @@ export default function Portfolio() {
             <main id="main" className={Layout.main}>
                 <section className={Resume.summary}>
                     <p>
-                        Strategic Technical Project Manager with 15+ years of full-cycle project management
-                        experience, including 7+ years leading enterprise infrastructure initiatives across
-                        multi-stakeholder environments. Proven track record in cross-functional coordination,
-                        process optimization, and delivering high-quality outcomes.
+                        Strategic Technical Project Manager with 15+ years of full-cycle delivery, including
+                        7+ years steering enterprise infrastructure initiatives through complex, multi-stakeholder
+                        environments. I thrive on cross-functional coordination, process optimization, and
+                        shipping high-quality outcomes even when timelines are tight.
                     </p>
                     <p>
-                        Passionate about AI infrastructure systems, with a proven ability to translate technical
-                        requirements into scalable solutions. Actively researching emerging AI technologies and
-                        AI/ML infrastructure trends.
+                        Deeply curious about AI infrastructure and the systems that let it scale. I turn tangled
+                        technical requirements into clear, durable solutions, and I keep a close eye on emerging
+                        AI and AI/ML infrastructure trends.
                     </p>
                 </section>
 
