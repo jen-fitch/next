@@ -219,6 +219,34 @@ export default function Portfolio() {
                                 initiatives with competing priorities.
                             </li>
                         </ul>
+
+                        <div className={Cards.grid}>
+                            <div className={Cards.card}>
+                                <Link href="https://humboldt.edu" passHref>
+                                    <Image
+                                        src="/images/portfolio/humboldt.jpg"
+                                        alt="Screenshot of humboldt.edu website"
+                                        width={500}
+                                        height={250}
+                                        className={"pointer"}
+                                    />
+                                </Link>
+                                <div className={Cards.info}>
+                                    <p className={Cards.text}>
+                                        Rebranding / Rebuilding <a href="https://humboldt.edu">humboldt.edu</a><br/>
+                                        Content strategy partner<br/>
+                                        Site building partner<br/>
+                                        Redirect implementation<br/>
+                                        Worked closely with agency &amp; PM<br/>
+                                        Assisted with implementing strategy<br/>
+                                        Rebranded over 200 sub sites
+                                    </p>
+                                    <p className={Cards.text}>
+                                        <strong>Website:</strong> <a href="https://humboldt.edu">humboldt.edu</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div className={Resume.experienceBlock}>
@@ -252,62 +280,33 @@ export default function Portfolio() {
                                 optimization, security updates, and performance monitoring.
                             </li>
                         </ul>
-                    </div>
-                </section>
 
-                <section>
-                    <h2 className={Resume.sectionHeading}>Featured Project Work</h2>
-                    <div className={Cards.grid}>
-                        <div className={Cards.card}>
-                            <Link href="https://humboldt.edu" passHref>
-                                <Image
-                                    src="/images/portfolio/humboldt.jpg"
-                                    alt="Screenshot of humboldt.edu website"
-                                    width={500}
-                                    height={250}
-                                    className={"pointer"}
-                                />
-                            </Link>
-                            <div className={Cards.info}>
-                                <p className={Cards.text}>
-                                    Rebranding / Rebuilding <a href="https://humboldt.edu">humboldt.edu</a><br/>
-                                    Content strategy partner<br/>
-                                    Site building partner<br/>
-                                    Redirect implementation<br/>
-                                    Worked closely with agency &amp; PM<br/>
-                                    Assisted with implementing strategy<br/>
-                                    Rebranded over 200 sub sites
-                                </p>
-                                <p className={Cards.text}>
-                                    <strong>Website:</strong> <a href="https://humboldt.edu">humboldt.edu</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className={Cards.card}>
-                            <Link href="https://hafoundation.org" passHref>
-                                <Image
-                                    src="/images/portfolio/haf.jpg"
-                                    alt="Screenshot of hafoundation.org website"
-                                    width={500}
-                                    height={250}
-                                    className={"pointer"}
-                                />
-                            </Link>
-                            <div className={Cards.info}>
-                                <p className={Cards.text}>
-                                    Website redesign<br/>
-                                    Website architecture<br/>
-                                    Project management<br/>
-                                    Consultation on goals<br/>
-                                    Website design<br/>
-                                    Custom WordPress theme<br/>
-                                    Site build
-                                </p>
-                                <p className={Cards.text}>
-                                    <strong>Website:</strong> <a href="https://hafoundation.org">hafoundation.org</a><br/>
-                                    <strong>Design:</strong> <a href="https://www.figma.com/proto/iHQs4WnivGAYTQ5tYTRsP4/HAF?page-id=106%3A2&type=design&node-id=406-2&viewport=137%2C191%2C0.07&t=m9OiaABeR9roAvIh-1&scaling=min-zoom&starting-point-node-id=126%3A2&mode=design">Website - Figma</a>
-                                </p>
+                        <div className={Cards.grid}>
+                            <div className={Cards.card}>
+                                <Link href="https://hafoundation.org" passHref>
+                                    <Image
+                                        src="/images/portfolio/haf.jpg"
+                                        alt="Screenshot of hafoundation.org website"
+                                        width={500}
+                                        height={250}
+                                        className={"pointer"}
+                                    />
+                                </Link>
+                                <div className={Cards.info}>
+                                    <p className={Cards.text}>
+                                        Website redesign<br/>
+                                        Website architecture<br/>
+                                        Project management<br/>
+                                        Consultation on goals<br/>
+                                        Website design<br/>
+                                        Custom WordPress theme<br/>
+                                        Site build
+                                    </p>
+                                    <p className={Cards.text}>
+                                        <strong>Website:</strong> <a href="https://hafoundation.org">hafoundation.org</a><br/>
+                                        <strong>Design:</strong> <a href="https://www.figma.com/proto/iHQs4WnivGAYTQ5tYTRsP4/HAF?page-id=106%3A2&type=design&node-id=406-2&viewport=137%2C191%2C0.07&t=m9OiaABeR9roAvIh-1&scaling=min-zoom&starting-point-node-id=126%3A2&mode=design">Website - Figma</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
