@@ -129,6 +129,17 @@
     margin-bottom: 0.5rem;
 }
 
+.subsectionHeading {
+    max-width: 1070px;
+    margin: 2rem auto 1rem;
+    padding: 0 1rem;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #666;
+    text-align: center;
+}
+
 .learningList {
     max-width: 1070px;
     margin: 0 auto;
