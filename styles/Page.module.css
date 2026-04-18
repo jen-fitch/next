@@ -1,6 +1,6 @@
 /* logo and header info */
 .logo p {
-  color: #999;
+  color: #595959;
   margin: 0 auto;
   padding: 0 0 0 5px;
   font-family: courier, monospace;
@@ -24,7 +24,7 @@
 .about {
   margin: 10px 0 0;
   text-align: center;
-  color: #999;
+  color: #595959;
   padding: 0 0 0 5px;
 }
 
@@ -41,5 +41,5 @@
 
 }
 .about span {
-  color: #c6c6c6;
+  color: #8a8a8a;
 }

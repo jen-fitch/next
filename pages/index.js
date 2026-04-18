@@ -18,6 +18,8 @@ export default function Portfolio() {
                 <link rel="icon" href="/images/favicon.ico" />
             </Head>
 
+            <a href="#main" className="skipLink">Skip to main content</a>
+
             <header className={`${Layout.logo_wrap}`}>
                 <div className={Page.logo}>
                     <p>Technical Project Manager &middot; Strategy &amp; Execution &middot; Team Leadership</p>
@@ -36,17 +38,17 @@ export default function Portfolio() {
                 <div className={Page.about}>
                     <p>
                         <Link href="https://www.linkedin.com/in/jenniferfitch2/">LinkedIn</Link>
-                        <span>&nbsp; | &nbsp;</span>
+                        <span aria-hidden="true">&nbsp; | &nbsp;</span>
                         <Link href="/pdf/jennifer-fitch_resume_2026.pdf">Résumé</Link>
-                        <span>&nbsp; | &nbsp;</span>
+                        <span aria-hidden="true">&nbsp; | &nbsp;</span>
                         <Link href="mailto:jenfitch4@gmail.com">Email</Link>
-                        <span>&nbsp; | &nbsp;</span>
+                        <span aria-hidden="true">&nbsp; | &nbsp;</span>
                         <Link href="tel:7076316934">(707) 631-6934</Link>
                     </p>
                 </div>
             </header>
 
-            <main className={Layout.main}>
+            <main id="main" className={Layout.main}>
                 <section className={Resume.summary}>
                     <p>
                         Strategic Technical Project Manager with 15+ years of full-cycle project management
