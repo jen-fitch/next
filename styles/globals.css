@@ -24,25 +24,27 @@ p {
 :root {
   --color-primary: #1F5E6E;
   --color-primary-hover: #164956;
+  --color-link: #B5563F;
+  --color-link-hover: #8C4230;
   --color-accent: #EFE9DE;
   --color-ink: #222;
   --color-muted: #666;
 }
 
 a {
-  color: var(--color-primary);
-  text-decoration-color: rgba(31, 94, 110, 0.35);
+  color: var(--color-link);
+  text-decoration-color: rgba(181, 86, 63, 0.4);
   text-underline-offset: 2px;
   transition: color 0.15s ease;
 }
 
 a:hover {
-  color: var(--color-primary-hover);
+  color: var(--color-link-hover);
 }
 
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid var(--color-primary);
+  outline: 2px solid var(--color-link);
   outline-offset: 3px;
   border-radius: 2px;
 }
