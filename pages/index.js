@@ -105,7 +105,7 @@ export default function Portfolio() {
                         <ul className={Resume.accomplishments}>
                             <li>
                                 Large-scale website migration and consolidation (230+ websites, $50K+ savings,
-                                95% completion).
+                                98% completion).
                             </li>
                             <li>Enterprise platform architecture and database management (SQL).</li>
                             <li>
