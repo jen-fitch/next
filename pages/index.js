@@ -1,293 +1,252 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import Layout from '../styles/Layout.module.css'
 import Page from '../styles/Page.module.css'
 import Cards from '../styles/Cards.module.css'
-
-const menu = [
-
-    { title: 'Website Building', path: '/' },
-    { title: 'Print/Marketing', path: '/' },
-    { title: 'Website Hosting', path: '/' },
-    { title: 'Maintenance', path: '/' },
-    { title: 'Contact', path: '/' },
-]
+import Resume from '../styles/Resume.module.css'
 
 export default function Portfolio() {
-    const router = useRouter()
     return (
         <div>
             <Head>
-                <title>Jennifer Fitch | Websites and More.</title>
-                <meta name="description" content="Portfolio" />
+                <title>Jennifer Fitch | Technical Project Manager</title>
+                <meta
+                    name="description"
+                    content="Technical Project Manager with 15+ years of full-cycle project management experience. Focused on AI tools, program management, and strategic digital transformation."
+                />
                 <link rel="icon" href="/images/favicon.ico" />
             </Head>
 
-
             <header className={`${Layout.logo_wrap}`}>
                 <div className={Page.logo}>
-                    <p>Web Designer, Front-end Web Developer, Project Manager, and Consultant</p>
+                    <p>Technical Project Manager &middot; Strategy &amp; Execution &middot; Team Leadership</p>
                     <div className={`${Layout.header_image}`}>
                         <Image
                             src="/images/jen-portrait-square.jpg"
-                            alt="portrait of Jen"
+                            alt="Portrait of Jennifer Fitch"
                             width={150}
                             height={150}
                             className={"circle"}
-                        /></div>
+                        />
+                    </div>
                     <h1>JENNIFER FITCH</h1>
                 </div>
 
                 <div className={Page.about}>
                     <p>
-                        <Link href="https://www.linkedin.com/in/jenniferfitch2/">
-                            LinkedIn
-                        </Link>
+                        <Link href="https://www.linkedin.com/in/jenniferfitch2/">LinkedIn</Link>
                         <span>&nbsp; | &nbsp;</span>
-                        <Link href="/pdf/jenniferFitch_resume_2024.pdf">
-                            Résumé
-                        </Link>
+                        <Link href="/pdf/jenniferFitch_resume_2024.pdf">Résumé</Link>
                         <span>&nbsp; | &nbsp;</span>
-                        <Link href="mailto:jenfitch4@gmail.com">
-                            Email
-                        </Link>
+                        <Link href="mailto:jenfitch4@gmail.com">Email</Link>
                         <span>&nbsp; | &nbsp;</span>
-                        <Link href="tel:7075720980">
-                            (707) 572-0980
-                        </Link>
-                    </p>
-                    <p>
-
-
+                        <Link href="tel:7075720980">(707) 572-0980</Link>
                     </p>
                 </div>
             </header>
+
             <main className={Layout.main}>
-                <div className={Cards.grid}>
-                    <div className={Cards.card}>
-                        <Link href="https://humboldt.edu" passHref>
-                            <Image
-                                src="/images/portfolio/humboldt.jpg"
-                                alt="screenshots of website"
-                                width={500}
-                                height={250}
-                                className={"pointer"}
-                            />
-                        </Link>
-                        <div className={Cards.info}>
+                <section className={Resume.summary}>
+                    <p>
+                        Strategic Technical Project Manager with 15+ years of full-cycle project management
+                        experience and 7+ years managing complex infrastructure across multi-stakeholder
+                        environments. Demonstrated success in cross-functional collaboration, process
+                        optimization, and delivering high-quality outcomes.
+                    </p>
+                    <p>
+                        Passionate about using technology to improve healthcare outcomes and creating positive
+                        societal impact through mission-driven organizations. Currently pursuing ongoing research
+                        into emerging AI technologies and AI/ML infrastructure.
+                    </p>
+                </section>
 
-                            <p className={Cards.text}>
-                                Rebranding / Rebuilding <a href="https://humboldt.edu">humboldt.edu</a><br/>
-                                Content strategy partner<br/>
-                                Site building partner<br/>
-                                Redirect implementation<br/>
-                                Worked closely with agency & PM<br/>
-                                Assisted with implementing strategy<br/>
-                                Rebranded over 200 sub sites
-
+                <section>
+                    <h2 className={Resume.sectionHeading}>Core Competencies</h2>
+                    <div className={Cards.grid}>
+                        <div className={Resume.competencyCard}>
+                            <h3>Infrastructure &amp; Workflow</h3>
+                            <p>
+                                Enterprise infrastructure management and large-scale migration expertise,
+                                workflow optimization with measurable outcomes, and systematic approaches to
+                                technical complexity.
                             </p>
-                            <p className={Cards.text}>
-                                <strong>Website:</strong> <a href="https://humboldt.edu">humboldt.edu</a><br/>
-                                {/*/!*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*!/*/}
+                        </div>
+                        <div className={Resume.competencyCard}>
+                            <h3>Process &amp; Resource Planning</h3>
+                            <p>
+                                Quality assurance protocols, change management expertise, multi-dimensional
+                                project planning, and data-driven decision making across enterprise-level
+                                projects.
+                            </p>
+                        </div>
+                        <div className={Resume.competencyCard}>
+                            <h3>Leadership &amp; Communication</h3>
+                            <p>
+                                Cross-functional team leadership, stakeholder alignment, requirements
+                                translation between technical and business teams, and transparent communication
+                                with vendor accountability.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 className={Resume.sectionHeading}>Experience</h2>
+
+                    <div className={Resume.experienceBlock}>
+                        <div className={Resume.roleHeader}>
+                            <h3>Technical Project Manager</h3>
+                            <p>California State Polytechnic University, Humboldt &middot; 2015–Present</p>
+                        </div>
+
+                        <h4 className={Resume.subheading}>Strategic Digital Transformation</h4>
+                        <ul className={Resume.accomplishments}>
+                            <li>
+                                Co-led a multi-year digital transformation initiative encompassing 230+ website
+                                migrations, coordinating a 5-person cross-functional team through complex
+                                technical migration with multiple interdependent phases and stakeholder groups.
+                            </li>
+                            <li>
+                                Achieved $50,000+ annual cost optimization through strategic infrastructure
+                                consolidation, eliminating operational complexity and consolidating 92 separate
+                                environments.
+                            </li>
+                            <li>
+                                Developed a comprehensive program framework including a three-tiered risk
+                                management system balancing technical constraints, business priorities, and
+                                resource dependencies.
+                            </li>
+                            <li>
+                                Delivered a 95% project success rate (to date) while managing multiple parallel
+                                workstreams and ensuring zero critical service disruptions during enterprise-scale
+                                technical migrations.
+                            </li>
+                        </ul>
+
+                        <h4 className={Resume.subheading}>Cross-Functional Operations &amp; Risk Management</h4>
+                        <ul className={Resume.accomplishments}>
+                            <li>
+                                Managed a complex stakeholder ecosystem across IT services, content strategy
+                                teams, accessibility specialists, executive leadership, and external vendors
+                                during multi-phase project execution.
+                            </li>
+                            <li>
+                                Implemented systematic project risk mitigation strategies including dependency
+                                mapping, contingency planning, and proactive communication protocols.
+                            </li>
+                            <li>
+                                Established governance structures incorporating input from research teams,
+                                technical developers, and business stakeholders while translating between
+                                technical specifications and strategic business objectives.
+                            </li>
+                            <li>
+                                Coordinated vendor management and accountability during multi-year program
+                                phases, maintaining continuity and deliverable quality through external partner
+                                transitions.
+                            </li>
+                        </ul>
+
+                        <h4 className={Resume.subheading}>Performance Measurement &amp; Process Improvement</h4>
+                        <ul className={Resume.accomplishments}>
+                            <li>
+                                Developed data-driven performance tracking systems monitoring resource
+                                utilization, delivery timelines, and stakeholder satisfaction across an
+                                enterprise-scale portfolio.
+                            </li>
+                            <li>
+                                Created systematic process improvement frameworks enabling scalable project
+                                management methodologies applicable across different technical domains and
+                                organizational contexts.
+                            </li>
+                            <li>
+                                Implemented quality assurance protocols managing deployment pipelines for up to
+                                10 concurrent deliverables weekly during peak execution phases.
+                            </li>
+                            <li>
+                                Designed stakeholder communication strategies ensuring transparency and
+                                alignment across diverse technical and non-technical team members.
+                            </li>
+                        </ul>
+
+                        <h4 className={Resume.subheading}>Research Collaboration &amp; Requirements Translation</h4>
+                        <ul className={Resume.accomplishments}>
+                            <li>
+                                Collaborated with academic stakeholders to understand content requirements,
+                                translating research needs into actionable technical program specifications and
+                                implementation roadmaps.
+                            </li>
+                            <li>
+                                Conducted comprehensive stakeholder analysis including user research, analytics
+                                evaluation, and organizational assessment to optimize program outcomes.
+                            </li>
+                            <li>
+                                Managed resource allocation and planning by coordinating technical staff,
+                                infrastructure resources, and program timelines across multiple concurrent
+                                initiatives with competing priorities.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className={Resume.experienceBlock}>
+                        <div className={Resume.roleHeader}>
+                            <h3>Technical Project Consultant</h3>
+                            <p>Freelance &middot; 2008–Present</p>
+                        </div>
+
+                        <h4 className={Resume.subheading}>Full-Cycle Project Management &amp; Strategic Planning</h4>
+                        <ul className={Resume.accomplishments}>
+                            <li>
+                                Manage the complete project lifecycle for annual client engagements, serving as
+                                strategic advisor and technical implementation lead for small-to-medium business
+                                digital transformations.
+                            </li>
+                            <li>
+                                Develop comprehensive project strategies including resource planning, timeline
+                                coordination, and stakeholder management frameworks optimized for client
+                                business objectives and technical constraints.
+                            </li>
+                            <li>
+                                Coordinate multi-vendor technical solutions including hosting infrastructure,
+                                development resources, and ongoing maintenance strategies while maintaining
+                                long-term client partnerships through strategic consultation.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 className={Resume.sectionHeading}>Education &amp; Development</h2>
+                    <div className={Resume.educationGrid}>
+                        <div className={Resume.educationCard}>
+                            <h3>Technology Leadership Certificate</h3>
+                            <p className={Resume.meta}>eCornell University &middot; 2025</p>
+                            <p>
+                                Advanced program management, cross-functional team leadership, and strategic
+                                technology planning.
+                            </p>
+                        </div>
+                        <div className={Resume.educationCard}>
+                            <h3>Bachelor of Fine Arts, Web Design + New Media</h3>
+                            <p className={Resume.meta}>Academy of Art University, San Francisco &middot; 2015</p>
+                            <p>
+                                Foundation in systems design, user experience methodology, and strategic
+                                technology implementation.
                             </p>
                         </div>
                     </div>
 
-                    <div className={Cards.card}>
-                        <Link href="https://hafoundation.org" passHref>
-                            <Image
-                                src="/images/portfolio/haf.jpg"
-                                alt="screenshots of website"
-                                width={500}
-                                height={250}
-                                className={"pointer"}
-                            />
-                        </Link>
-                        <div className={Cards.info}>
-                            <p className={Cards.text}>
-                                Website redesign<br/>
-                                Website architecture<br/>
-                                Project management<br/>
-                                Consultation on goals<br/>
-                                Website design<br/>
-                                Custom WordPress theme<br/>
-                                Site build
-
-                            </p>
-                            <p className={Cards.text}>
-                                {/*<a href="#">List of all Websites</a><br/><br/>*/}
-                                <strong>Website:</strong> <a href="https://hafoundation.org">hafoundation.org</a><br/>
-                                <strong>Design:</strong> <a
-                                href="https://www.figma.com/proto/iHQs4WnivGAYTQ5tYTRsP4/HAF?page-id=106%3A2&type=design&node-id=406-2&viewport=137%2C191%2C0.07&t=m9OiaABeR9roAvIh-1&scaling=min-zoom&starting-point-node-id=126%3A2&mode=design">
-                                Website - Figma</a><br/>
-                                {/*/!*<strong>Case Study:</strong> <a href="#">Academic Theme</a>*!/*/}
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className={Cards.card}>
-                        <a href="https://www.humboldtlandman.com/">
-                            <Image
-                                src="/images/portfolio/landman2.jpg"
-                                alt="Land Man logo with a forest behind it"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-
-                            <p className={Cards.text}>
-                                Migration strategy<br/>
-                                Rebuild from Drupal to Wordpress<br/>
-                                Theme & plugin research/implementation<br/>
-                                Design sketches & mockups<br/>
-                                Website design<br/>
-                                Organizing MLS layout<br/>
-                                MLS & custom real estate listings<br/>
-                                Troubleshooting and theming MLS
-                            </p>
-                            <p className={Cards.text}>
-                                <strong>Website:</strong> <a
-                                href="https://www.humboldtlandman.com/">humboldtlandman.com</a><br/>
-                                <strong>Design:</strong> <a
-                                href="https://www.figma.com/proto/f0odyM3HbwfkmmKpm0JyPS/website?node-id=1%3A1028&viewport=823%2C182%2C0.125&scaling=min-zoom">Land
-                                Man - Figma</a><br/>
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div className={Cards.card}>
-                        <a href="https://registrar.humboldt.edu/">
-                            <Image
-                                src="/images/portfolio/registrar2.jpg"
-                                alt="Two students sitting in front of a computer in a classroom"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-
-                            <p className={Cards.text}>
-                                Consultation & Design Research<br/>
-                                Content inventory<br/>
-                                New sitemap based on research<br/>
-                                Organizing content<br/>
-                                Gathering & migrating content<br/>
-                                Content types & views<br/>
-                                Photo research & selection<br/>
-                                Homepage layout<br/>
-                                Homepage layout<br/>
-                            </p>
-                            <p className={Cards.text}>
-                                <strong>Website:</strong> <a
-                                href="https://registrar.humboldt.edu/">registrar.humboldt.edu</a><br/>
-                                <strong>Sitemap & Design:</strong> <a
-                                href="https://www.figma.com/proto/PK4yKE34iPOCtcuGCQhS3f/registrar.humboldt.edu?page-id=0%3A1&node-id=146%3A186&viewport=241%2C48%2C0.08&scaling=min-zoom">Registrar
-                                - Figma</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div className={Cards.card}>
-                        <a href="https://impact.humboldt.edu/">
-                            <Image
-                                src="/images/portfolio/impact2.jpg"
-                                alt="Humboldt State Impact Report - with arial photo of university"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-                            <p className={Cards.text}>
-                                Complex report design<br/>
-                                Unique homepage layout<br/>
-                                Built custom report navigation<br/>
-                                Themed in Drupal<br/>
-                                Homepage layout<br/>
-                                Photo research & selection
-                            </p>
-                            <p className={Cards.text}>
-                                <strong>Website:</strong> <a href="https://impact.humboldt.edu/">impact.humboldt.edu</a><br/>
-                                <strong>Design:</strong> <a
-                                href="https://www.figma.com/proto/VAic44leZYZcW1nLaDXY9T/impact.humboldt.edu?page-id=63%3A2&node-id=63%3A3&viewport=241%2C48%2C0.12&scaling=scale-down">Economic
-                                Impact - Figma</a><br/>
-                                {/*<strong>Case Study:</strong> <a href="#">Economic Impact Report</a>*/}
-                            </p>
-                        </div>
-                    </div>
-                    <div className={Cards.card}>
-                        <a href="https://www.jewelldistillery.com/">
-                            <Image
-                                src="/images/portfolio/jewell2.jpg"
-                                alt="Michael standing in front of his still"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-
-                            <p className={Cards.text}>
-                                Custom Wordpress theme<br/>
-                                Custom post types<br/>
-                                PHP template files<br/>
-                                Product photography<br/>
-                                Website design<br/>
-                                Custom sitemap<br/>
-                                Assistance with logo & graphics<br/>
-
-                            </p>
-                            <p className={Cards.text}>
-                                <strong>Website:</strong> <a
-                                href="https://www.jewelldistillery.com/">jewelldistillery.com</a><br/>
-                                <strong>Design:</strong> <a
-                                href="https://www.figma.com/proto/0wwHgCMoBv39HXw3Tlf3xnOH/JD-Website-Mockup?node-id=106%3A2&viewport=140%2C238%2C0.1249595358967781&scaling=min-zoom">Jewell
-                                Distillery - Figma</a>
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div className={Cards.card}>
-                        <a href="https://jmcktaxes.com/">
-                            <Image
-                                src="/images/portfolio/jmck2.jpg"
-                                alt="Jessica McKnight logo with the ocean view behind it"
-                                width={500}
-                                height={250}
-                            />
-                        </a>
-                        <div className={Cards.info}>
-
-                            <p className={Cards.text}>
-                                Custom Wordpress theme<br/>
-                                Custom resource section<br/>
-                                PHP template files<br/>
-                                Organized content<br/>
-                                Color exploration<br/>
-                                Website design<br/>
-                                {/*Theme built on <Link href="https://understrap.com/"><a>Understrap</a></Link><br/>*/}
-                                Site build<br/>
-                                Provided Photography
-                            </p>
-                            <p className={Cards.text}>
-                                <strong>Website:</strong> <a href="https://jmcktaxes.com/">jmcktaxes.com</a><br/>
-                                <strong>Colors:</strong> <a
-                                href="https://www.figma.com/proto/DbAMKbrf8V9oogPKtm1lTo/Jessica-McKnight?node-id=82%3A299&viewport=749%2C439%2C0.06971913576126099&scaling=min-zoom">JMCK
-                                - Figma (colors)</a><br/>
-                                <strong>Design:</strong> <a
-                                href="https://www.figma.com/proto/DbAMKbrf8V9oogPKtm1lTo/Jessica-McKnight?node-id=163%3A63&viewport=1314%2C1040%2C0.12526367604732513&scaling=min-zoom">JMCK
-                                - Figma</a><br/>
-                                {/*<strong>Case Study:</strong> <a href="#">Jessica McKnight</a>*/}
-                            </p>
-                        </div>
-                    </div>
-
-
-                </div>
+                    <h4 className={Resume.subheading} style={{ textAlign: 'center' }}>
+                        Ongoing Professional Learning
+                    </h4>
+                    <ul className={Resume.learningList}>
+                        <li>AI/ML program management &amp; infrastructure strategy</li>
+                        <li>Healthcare technology &amp; regulatory compliance</li>
+                        <li>Agile &amp; Scrum methodologies</li>
+                        <li>Data analytics &amp; KPI development</li>
+                    </ul>
+                </section>
             </main>
-
         </div>
     )
 }
