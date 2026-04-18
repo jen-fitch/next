@@ -51,15 +51,15 @@ export default function Portfolio() {
             <main id="main" className={Layout.main}>
                 <section className={Resume.summary}>
                     <p>
-                        Strategic Technical Project Manager with 15+ years of full-cycle project management
-                        experience, including 7+ years leading enterprise infrastructure initiatives across
-                        multi-stakeholder environments. Proven track record in cross-functional coordination,
-                        process optimization, and delivering high-quality outcomes.
+                        Strategic Technical Project Manager with 15+ years of full-cycle delivery&mdash;including
+                        7+ years steering enterprise infrastructure initiatives through messy, multi-stakeholder
+                        environments. I thrive in cross-functional coordination, process optimization, and
+                        shipping high-quality outcomes on ambitious timelines.
                     </p>
                     <p>
-                        Passionate about AI infrastructure systems, with a proven ability to translate technical
-                        requirements into scalable solutions. Actively researching emerging AI technologies and
-                        AI/ML infrastructure trends.
+                        Deeply curious about AI infrastructure and the systems that make it scale. I turn tangled
+                        technical requirements into clear, durable solutions&mdash;and I keep a close pulse on
+                        emerging AI and AI/ML infrastructure trends.
                     </p>
                 </section>
 
@@ -69,23 +69,23 @@ export default function Portfolio() {
                         <div className={Resume.competencyCard}>
                             <h3>Infrastructure Management &amp; Workflow Development</h3>
                             <p>
-                                Enterprise infrastructure management, large-scale migration expertise, and
-                                workflow optimization backed by measurable outcomes.
+                                Enterprise-scale infrastructure, complex migrations, and workflow design that
+                                moves the needle on measurable outcomes.
                             </p>
                         </div>
                         <div className={Resume.competencyCard}>
                             <h3>Process Innovation &amp; Resource Planning</h3>
                             <p>
-                                Quality assurance protocols, change management, multi-dimensional project
-                                planning, and data-driven decision making at enterprise scale.
+                                Quality assurance, change management, multi-dimensional planning, and
+                                data-driven decisions&mdash;at the scale enterprise programs demand.
                             </p>
                         </div>
                         <div className={Resume.competencyCard}>
                             <h3>Leadership &amp; Communication</h3>
                             <p>
-                                Cross-functional team leadership, stakeholder alignment, and requirements
-                                translation between technical and business teams&mdash;paired with transparent
-                                communication and vendor accountability.
+                                Cross-functional leadership and stakeholder alignment, with a knack for
+                                translating between technical and business teams and holding vendors to clear,
+                                transparent standards.
                             </p>
                         </div>
                     </div>
@@ -166,8 +166,8 @@ export default function Portfolio() {
                                 platform, reducing operational complexity by 80%.
                             </li>
                             <li>
-                                Executed data migration for 75,000+ webpages using SQL optimization and
-                                automated migration tools.
+                                Executed data migration for 75,000+ webpages using a blend of automated and
+                                hands-on migration strategies.
                             </li>
                             <li>
                                 Authored technical documentation frameworks covering infrastructure
