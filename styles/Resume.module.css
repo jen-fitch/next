@@ -16,10 +16,10 @@
     text-align: center;
     font-size: 14px;
     letter-spacing: 3px;
-    color: #999;
+    color: #1F5E6E;
     margin: 0 0 1.5rem;
     padding-bottom: 0.75rem;
-    border-bottom: 0.25px solid #000;
+    border-bottom: 2px solid #EFE9DE;
     max-width: 370px;
     margin-left: auto;
     margin-right: auto;
@@ -39,6 +39,7 @@
     font-size: 16px;
     margin: 0 0 0.75rem;
     letter-spacing: 1px;
+    color: #1F5E6E;
 }
 
 .competencyCard p {
@@ -56,13 +57,14 @@
 .roleHeader {
     margin-bottom: 1.75rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #EFE9DE;
 }
 
 .roleHeader h3 {
     font-size: 22px;
     margin: 0 0 0.25rem;
     letter-spacing: 1px;
+    color: #1F5E6E;
 }
 
 .roleHeader p {
@@ -79,7 +81,7 @@
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #666;
+    color: #1F5E6E;
     margin: 1.75rem 0 0.75rem;
 }
 
@@ -113,6 +115,7 @@
     font-size: 15px;
     margin: 0 0 0.25rem;
     letter-spacing: 1px;
+    color: #1F5E6E;
 }
 
 .educationCard p {
@@ -136,7 +139,7 @@
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #666;
+    color: #1F5E6E;
     text-align: center;
 }
 

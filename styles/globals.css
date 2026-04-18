@@ -21,12 +21,28 @@ p {
   margin-top: 0;
 }
 
-a {
-  color: #000;
+:root {
+  --color-primary: #1F5E6E;
+  --color-primary-hover: #164956;
+  --color-accent: #EFE9DE;
+  --color-ink: #222;
+  --color-muted: #666;
 }
 
-footer a {
-  color: #FFF;
+a {
+  color: var(--color-primary);
+  text-decoration-color: rgba(31, 94, 110, 0.35);
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--color-primary-hover);
+}
+
+footer a,
+footer a:hover {
+  color: var(--color-accent);
 }
 
 img.pointer:hover {

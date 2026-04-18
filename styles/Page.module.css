@@ -14,7 +14,8 @@
   font-size: 42px;
   font-weight: 300;
   text-align: center;
-  border-bottom: .25px solid #000;
+  color: #1F5E6E;
+  border-bottom: 2px solid #EFE9DE;
   width: auto;
   max-width: 370px;
 }
@@ -28,11 +29,11 @@
 }
 
 .about a {
-  color: #999;
+  color: #1F5E6E;
 }
 
 .about a:hover {
-  color: #666;
+  color: #164956;
 }
 
 .about p {
