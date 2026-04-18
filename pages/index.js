@@ -13,7 +13,7 @@ export default function Portfolio() {
                 <title>Jennifer Fitch | Technical Project Manager</title>
                 <meta
                     name="description"
-                    content="Technical Project Manager with 15+ years of full-cycle project management experience and 7+ years leading enterprise-level infrastructure initiatives. Passionate about AI infrastructure systems and scalable technical solutions."
+                    content="Technical Project Manager with 15+ years leading full-cycle projects and 7+ years directing enterprise infrastructure initiatives. Focused on AI infrastructure systems and scalable technical solutions."
                 />
                 <link rel="icon" href="/images/favicon.ico" />
             </Head>
@@ -52,15 +52,14 @@ export default function Portfolio() {
                 <section className={Resume.summary}>
                     <p>
                         Strategic Technical Project Manager with 15+ years of full-cycle project management
-                        experience and 7+ years managing enterprise-level infrastructure initiatives and
-                        deployment processes across multi-stakeholder environments. Demonstrated success in
-                        cross-functional coordination, process optimization, and delivering high quality
-                        outcomes.
+                        experience, including 7+ years leading enterprise infrastructure initiatives across
+                        multi-stakeholder environments. Proven track record in cross-functional coordination,
+                        process optimization, and delivering high-quality outcomes.
                     </p>
                     <p>
-                        Passionate about AI infrastructure systems with demonstrated ability to translate
-                        technical requirements into scalable solutions. Currently pursuing ongoing research
-                        into emerging AI technologies and AI/ML infrastructure.
+                        Passionate about AI infrastructure systems, with a proven ability to translate technical
+                        requirements into scalable solutions. Actively researching emerging AI technologies and
+                        AI/ML infrastructure trends.
                     </p>
                 </section>
 
@@ -70,26 +69,23 @@ export default function Portfolio() {
                         <div className={Resume.competencyCard}>
                             <h3>Infrastructure Management &amp; Workflow Development</h3>
                             <p>
-                                Enterprise infrastructure management and large-scale migration expertise,
-                                workflow optimization with measurable outcomes, and systematic approaches to
-                                technical complexity.
+                                Enterprise infrastructure management, large-scale migration expertise, and
+                                workflow optimization backed by measurable outcomes.
                             </p>
                         </div>
                         <div className={Resume.competencyCard}>
                             <h3>Process Innovation &amp; Resource Planning</h3>
                             <p>
-                                Quality assurance protocols, change management expertise, multi-dimensional
-                                project planning, and data-driven decision making across enterprise-level
-                                projects.
+                                Quality assurance protocols, change management, multi-dimensional project
+                                planning, and data-driven decision making at enterprise scale.
                             </p>
                         </div>
                         <div className={Resume.competencyCard}>
                             <h3>Leadership &amp; Communication</h3>
                             <p>
-                                Cross-functional team leadership and stakeholder alignment, multi-stakeholder
-                                project management with proven results, requirements translation between
-                                technical and business teams, and transparent communication strategies with
-                                vendor accountability.
+                                Cross-functional team leadership, stakeholder alignment, and requirements
+                                translation between technical and business teams&mdash;paired with transparent
+                                communication and vendor accountability.
                             </p>
                         </div>
                     </div>
@@ -106,119 +102,111 @@ export default function Portfolio() {
 
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Large-scale website migration and consolidation (230+ websites, $50K+ savings,
-                                98% completion).
+                                Large-scale website migration and consolidation (230+ websites, $50K+ in annual
+                                savings, 98% complete).
                             </li>
-                            <li>Enterprise platform architecture and database management (SQL).</li>
+                            <li>Enterprise platform architecture and SQL database management.</li>
                             <li>
-                                Version control systems (Git), cloud infrastructure, analytics and data-driven
-                                decision making.
+                                Version control (Git), cloud infrastructure, and analytics-driven decision
+                                making.
                             </li>
                         </ul>
 
                         <h4 className={Resume.subheading}>Strategic Digital Transformation &amp; Multi-Phase Infrastructure Initiative</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Co-led multi-year digital transformation initiative encompassing 230+ website
-                                migrations, coordinating a 5-person cross-functional team through complex
-                                technical migration with multiple interdependent phases and stakeholder groups.
+                                Co-led a multi-year digital transformation encompassing 230+ website migrations,
+                                guiding a 5-person cross-functional team through interdependent technical phases
+                                and multiple stakeholder groups.
                             </li>
                             <li>
-                                Achieved $50,000+ annual cost optimization through strategic infrastructure
-                                consolidation program, eliminating operational complexity and consolidating 92
-                                separate environments.
+                                Delivered $50,000+ in annual cost savings by consolidating 92 separate
+                                environments and eliminating operational complexity.
                             </li>
                             <li>
-                                Developed systematic migration framework including a three-tiered risk
-                                management system balancing technical constraints, business priorities, and
-                                resource dependencies—applicable to any large-scale infrastructure transition.
+                                Developed a migration framework with a three-tiered risk model balancing
+                                technical constraints, business priorities, and resource dependencies.
                             </li>
                             <li>
-                                Coordinated technical workload distribution across development teams while
-                                maintaining a 98% project completion rate (to date) and zero critical service
-                                disruptions.
+                                Distributed technical workload across development teams while sustaining a 98%
+                                completion rate to date and zero critical service disruptions.
                             </li>
                         </ul>
 
-                        <h4 className={Resume.subheading}>Cross-Functional Technical Coordination &amp; Project Level Risk Management</h4>
+                        <h4 className={Resume.subheading}>Cross-Functional Technical Coordination &amp; Project-Level Risk Management</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Co-managed complex stakeholder ecosystem across IT services, content strategy
-                                teams, accessibility specialists, executive leadership, and external vendors
-                                during multi-phase project execution.
+                                Co-managed a complex stakeholder ecosystem spanning IT services, content
+                                strategy, accessibility specialists, executive leadership, and external vendors
+                                through multi-phase execution.
                             </li>
                             <li>
-                                Implemented systematic project risk mitigation strategies including dependency
-                                mapping, contingency planning, and proactive communication protocols to address
-                                technical and organizational challenges.
+                                Implemented project risk mitigation strategies including dependency mapping,
+                                contingency planning, and proactive communication protocols to address technical
+                                and organizational challenges.
                             </li>
                             <li>
-                                Designed and implemented systematic workflows incorporating requirements from
-                                multiple technical teams while translating between technical specifications and
-                                organizational objectives.
+                                Designed workflows that integrated requirements from multiple technical teams
+                                and translated specifications into clear organizational objectives.
                             </li>
                             <li>
-                                Coordinated cross-functional input from research teams, technical developers,
-                                and business stakeholders, translating between technical specifications and
-                                strategic business objectives.
+                                Bridged technical and strategic priorities by gathering and synthesizing input
+                                from research teams, developers, and business stakeholders.
                             </li>
                             <li>
-                                Coordinated vendor management and accountability during several multi-year
-                                program phases, maintaining continuity and deliverable quality through external
-                                partner transitions.
+                                Managed vendor accountability across several multi-year program phases,
+                                preserving continuity and deliverable quality through partner transitions.
                             </li>
                         </ul>
 
                         <h4 className={Resume.subheading}>Systems Architecture &amp; Optimization</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Implemented a unified platform strategy consolidating 92 disparate Drupal
-                                installations into scalable, maintainable infrastructure, reducing operational
-                                complexity by 80%.
+                                Consolidated 92 disparate Drupal installations into a unified, scalable
+                                platform, reducing operational complexity by 80%.
                             </li>
                             <li>
-                                Implemented data migration strategies for 75,000+ webpages using SQL
-                                optimization and automated migration tools.
+                                Executed data migration for 75,000+ webpages using SQL optimization and
+                                automated migration tools.
                             </li>
                             <li>
-                                Created technical documentation frameworks for infrastructure requirements,
-                                deployment procedures, and system maintenance protocols.
+                                Authored technical documentation frameworks covering infrastructure
+                                requirements, deployment procedures, and system maintenance protocols.
                             </li>
                         </ul>
 
                         <h4 className={Resume.subheading}>Performance Measurement &amp; Process Improvement</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Developed data-driven performance tracking systems monitoring resource
-                                utilization, delivery timelines, and stakeholder satisfaction across
-                                enterprise-scale portfolio.
+                                Built data-driven performance tracking systems monitoring resource utilization,
+                                delivery timelines, and stakeholder satisfaction across an enterprise-scale
+                                portfolio.
                             </li>
                             <li>
-                                Created systematic process improvement frameworks enabling scalable project
-                                management methodologies applicable across different technical domains and
-                                organizational contexts.
+                                Established process improvement frameworks that scaled project management
+                                methodologies across diverse technical domains and organizational contexts.
                             </li>
                             <li>
-                                Implemented quality assurance protocols managing deployment pipelines for up to
-                                10 concurrent deliverables weekly during peak execution phases.
+                                Implemented quality assurance protocols for deployment pipelines handling up to
+                                10 concurrent deliverables per week during peak execution.
                             </li>
                             <li>
-                                Designed stakeholder communication strategies ensuring transparency and
-                                alignment with goals across diverse technical and non-technical team members.
+                                Designed stakeholder communication strategies that kept technical and
+                                non-technical teams transparently aligned on shared goals.
                             </li>
                         </ul>
 
                         <h4 className={Resume.subheading}>Research Collaboration &amp; Requirements Translation</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Collaborated with academic stakeholders to understand content requirements,
-                                translating research needs into actionable technical program specifications and
-                                implementation roadmaps.
+                                Partnered with academic stakeholders to translate research and content
+                                requirements into actionable technical specifications and implementation
+                                roadmaps.
                             </li>
                             <li>
-                                Managed resource allocation and planning by coordinating technical staff,
-                                infrastructure resources, and program timelines across multiple concurrent
-                                initiatives with competing priorities.
+                                Managed resource allocation and planning across technical staff, infrastructure,
+                                and program timelines for multiple concurrent initiatives with competing
+                                priorities.
                             </li>
                         </ul>
 
@@ -236,13 +224,12 @@ export default function Portfolio() {
                                 </Link>
                                 <div className={Cards.info}>
                                     <p className={Cards.text}>
-                                        Rebranding / Rebuilding <a href="https://humboldt.edu">humboldt.edu</a><br/>
-                                        Content strategy partner<br/>
-                                        Site building partner<br/>
+                                        Rebrand and rebuild of <a href="https://humboldt.edu">humboldt.edu</a><br/>
+                                        Content strategy partnership<br/>
+                                        Site-building partnership<br/>
                                         Redirect implementation<br/>
-                                        Worked closely with agency &amp; PM<br/>
-                                        Assisted with implementing strategy<br/>
-                                        Rebranded over 200 sub sites
+                                        Close collaboration with agency &amp; PM<br/>
+                                        Rebranded 200+ subsites
                                     </p>
                                     <p className={Cards.text}>
                                         <strong>Website:</strong> <a href="https://humboldt.edu">humboldt.edu</a>
@@ -258,29 +245,28 @@ export default function Portfolio() {
                             <p>Freelance &middot; 2008–Present</p>
                         </div>
 
-                        <h4 className={Resume.subheading}>Full-cycle Project Management &amp; Strategic Planning</h4>
+                        <h4 className={Resume.subheading}>Full-Cycle Project Management &amp; Strategic Planning</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Manage complete project lifecycle for annual client engagements, serving as
-                                strategic advisor and technical implementation lead for small-to-medium business
-                                digital transformations.
+                                Manage full-cycle projects for annual client engagements, serving as strategic
+                                advisor and technical lead for small- to medium-business digital transformations.
                             </li>
                             <li>
-                                Develop comprehensive project strategies including resource planning, timeline
-                                coordination, and stakeholder management frameworks optimized for client
-                                business objectives and technical constraints.
+                                Develop project strategies covering resource planning, timeline coordination,
+                                and stakeholder management, aligned with client business objectives and
+                                technical constraints.
                             </li>
                             <li>
-                                Develop scalable web infrastructure solutions using WordPress and custom
-                                development, optimizing for performance and maintainability.
+                                Build scalable web infrastructure using WordPress and custom development,
+                                optimized for performance and maintainability.
                             </li>
                             <li>
-                                Coordinate technical resource planning including hosting infrastructure,
-                                development environments, and deployment strategies.
+                                Coordinate technical resource planning across hosting, development environments,
+                                and deployment strategy.
                             </li>
                             <li>
-                                Maintain long-term client technical partnerships providing ongoing system
-                                optimization, security updates, and performance monitoring.
+                                Maintain long-term client partnerships through ongoing system optimization,
+                                security updates, and performance monitoring.
                             </li>
                         </ul>
 
@@ -301,7 +287,7 @@ export default function Portfolio() {
                                         Website redesign<br/>
                                         Website architecture<br/>
                                         Project management<br/>
-                                        Consultation on goals
+                                        Strategic consultation
                                     </p>
                                     <p className={Cards.text}>
                                         <strong>Website:</strong> <a href="https://hafoundation.org">hafoundation.org</a><br/>
@@ -320,25 +306,25 @@ export default function Portfolio() {
                             <h3>Bachelor of Fine Arts, Web Design + New Media</h3>
                             <p className={Resume.meta}>Academy of Art University, San Francisco &middot; 2015</p>
                             <p>
-                                Foundation in systems design, user experience methodology, and strategic
-                                technology implementation.
+                                Foundation in systems design, user experience, and strategic technology
+                                implementation.
                             </p>
                         </div>
                         <div className={Resume.educationCard}>
                             <h3>Technology Leadership Certificate</h3>
                             <p className={Resume.meta}>eCornell University &middot; 2025</p>
                             <p>
-                                Advanced program management, cross-functional team leadership, and strategic
-                                technology planning.
+                                Focused on advanced program management, cross-functional team leadership, and
+                                strategic technology planning.
                             </p>
                         </div>
                     </div>
 
                     <h3 className={Resume.subsectionHeading}>Ongoing Professional Learning</h3>
                     <ul className={Resume.learningList}>
-                        <li>AI/ML program management and infrastructure strategy research</li>
-                        <li>Healthcare technology trends and regulatory compliance frameworks</li>
-                        <li>Agile and Scrum methodology application in technical project management</li>
+                        <li>AI/ML program management and infrastructure strategy</li>
+                        <li>Healthcare technology trends and regulatory compliance</li>
+                        <li>Applying Agile and Scrum methodologies to technical project management</li>
                         <li>Data analytics and KPI development for performance measurement</li>
                     </ul>
                 </section>
