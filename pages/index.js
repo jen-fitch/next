@@ -69,23 +69,22 @@ export default function Portfolio() {
                         <div className={Resume.competencyCard}>
                             <h3>Web Infrastructure Management &amp; Workflow Development</h3>
                             <p>
-                                Enterprise web infrastructure management, large-scale migration expertise, and
-                                workflow optimization backed by measurable outcomes.
+                                Enterprise web infrastructure, complex migrations, and workflow design that
+                                delivers measurable results.
                             </p>
                         </div>
                         <div className={Resume.competencyCard}>
                             <h3>Process Innovation &amp; Resource Planning</h3>
                             <p>
-                                Quality assurance protocols, change management, multi-dimensional project
-                                planning, and data-driven decision making at enterprise scale.
+                                Quality assurance protocols, change management, thoughtful project planning,
+                                and decisions grounded in real data.
                             </p>
                         </div>
                         <div className={Resume.competencyCard}>
                             <h3>Leadership &amp; Communication</h3>
                             <p>
-                                Cross-functional team leadership, stakeholder alignment, and requirements
-                                translation between technical and business teams&mdash;paired with transparent
-                                communication and vendor accountability.
+                                Leading teams across disciplines, bridging technical and business priorities,
+                                and keeping vendors and stakeholders clearly informed.
                             </p>
                         </div>
                     </div>
