@@ -220,6 +220,7 @@ export default function Portfolio() {
                             </li>
                         </ul>
 
+                        <h4 className={Resume.subsectionHeading}>Featured Project</h4>
                         <div className={Cards.grid}>
                             <div className={Cards.card}>
                                 <Link href="https://humboldt.edu" passHref>
@@ -281,6 +282,7 @@ export default function Portfolio() {
                             </li>
                         </ul>
 
+                        <h4 className={Resume.subsectionHeading}>Featured Project</h4>
                         <div className={Cards.grid}>
                             <div className={Cards.card}>
                                 <Link href="https://hafoundation.org" passHref>
