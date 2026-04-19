@@ -63,8 +63,5 @@ header.logo_wrap a {
 }
 
 .footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
+    color: #EFE9DE;
 }

@@ -43,3 +43,16 @@
 .about span {
   color: #8a8a8a;
 }
+
+.footerLinks {
+  margin: 0;
+  text-align: center;
+  color: #EFE9DE;
+  font-family: courier, monospace;
+  letter-spacing: 1px;
+  padding: 0 1rem;
+}
+
+.footerLinks span {
+  color: rgba(239, 233, 222, 0.5);
+}

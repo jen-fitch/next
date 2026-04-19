@@ -316,6 +316,18 @@ export default function Portfolio() {
                     </div>
                 </section>
             </main>
+
+            <footer className={Layout.footer}>
+                <p className={Page.footerLinks}>
+                    <Link href="https://www.linkedin.com/in/jenniferfitch2/">LinkedIn</Link>
+                    <span aria-hidden="true">&nbsp; | &nbsp;</span>
+                    <Link href="/pdf/jennifer-fitch_resume_2026.pdf">Résumé</Link>
+                    <span aria-hidden="true">&nbsp; | &nbsp;</span>
+                    <Link href="mailto:jenfitch4@gmail.com">Email</Link>
+                    <span aria-hidden="true">&nbsp; | &nbsp;</span>
+                    <Link href="tel:7076316934">(707) 631-6934</Link>
+                </p>
+            </footer>
         </div>
     )
 }
