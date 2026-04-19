@@ -1,6 +1,6 @@
 /* logo and header info */
 .logo p {
-  color: #595959;
+  color: #1F5E6E;
   margin: 0 auto;
   padding: 0 0 0 5px;
   font-family: courier, monospace;
@@ -51,6 +51,15 @@
   font-family: courier, monospace;
   letter-spacing: 1px;
   padding: 0 1rem;
+}
+
+.footerLinks a {
+  text-decoration: none;
+}
+
+.footerLinks a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(239, 233, 222, 0.5);
 }
 
 .footerLinks span {
