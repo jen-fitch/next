@@ -147,7 +147,7 @@ export default function Portfolio() {
                             </li>
                         </ul>
 
-                        <h4 className={Resume.subheading}>Systems Architecture, Optimization &amp; Process Improvement</h4>
+                        <h4 className={Resume.subheading}>Web Systems Architecture, Optimization &amp; Process Improvement</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
                                 Consolidated 92 separate Drupal installations into one unified platform,
