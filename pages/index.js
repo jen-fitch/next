@@ -80,13 +80,6 @@ export default function Portfolio() {
                                 and decisions grounded in real data.
                             </p>
                         </div>
-                        <div className={Resume.competencyCard}>
-                            <h3>Leadership &amp; Communication</h3>
-                            <p>
-                                Leading teams across disciplines, bridging technical and business priorities,
-                                and keeping vendors and stakeholders clearly informed.
-                            </p>
-                        </div>
                     </div>
                 </section>
 
