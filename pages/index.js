@@ -106,106 +106,93 @@ export default function Portfolio() {
                             </li>
                             <li>Enterprise platform architecture and SQL database management.</li>
                             <li>
-                                Version control (Git), cloud infrastructure, and analytics-driven decision
-                                making.
+                                Git, cloud infrastructure, and analytics that guide real decisions.
                             </li>
                         </ul>
 
                         <h4 className={Resume.subheading}>Strategic Digital Transformation &amp; Multi-Phase Infrastructure Initiative</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Co-led a multi-year digital transformation encompassing 230+ website migrations,
-                                guiding a 5-person cross-functional team through interdependent technical phases
-                                and multiple stakeholder groups.
+                                Co-led a multi-year migration of 230+ websites, guiding a team of five through
+                                interdependent technical phases and a wide set of stakeholders.
                             </li>
                             <li>
-                                Delivered $50,000+ in annual cost savings by consolidating 92 separate
-                                environments and eliminating operational complexity.
+                                Saved $50,000+ annually by consolidating 92 separate environments into a single
+                                platform.
                             </li>
                             <li>
-                                Developed a migration framework with a three-tiered risk model balancing
+                                Built a migration framework with a three-tiered risk model that balanced
                                 technical constraints, business priorities, and resource dependencies.
                             </li>
                             <li>
-                                Distributed technical workload across development teams while sustaining a 98%
-                                completion rate to date and zero critical service disruptions.
+                                Distributed technical workload across development teams while holding a 98%
+                                completion rate and zero critical service disruptions.
                             </li>
                         </ul>
 
-                        <h4 className={Resume.subheading}>Cross-Functional Technical Coordination &amp; Project-Level Risk Management</h4>
+                        <h4 className={Resume.subheading}>Multi-Team Technical Coordination &amp; Project-Level Risk Management</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Co-managed a complex stakeholder ecosystem spanning IT services, content
-                                strategy, accessibility specialists, executive leadership, and external vendors
-                                through multi-phase execution.
+                                Put project risk mitigation strategies in place, including dependency mapping,
+                                contingency planning, and clear communication protocols for technical and
+                                organizational challenges.
                             </li>
                             <li>
-                                Implemented project risk mitigation strategies including dependency mapping,
-                                contingency planning, and proactive communication protocols to address technical
-                                and organizational challenges.
+                                Designed workflows that pulled requirements from multiple teams and translated
+                                them into plain-language objectives the rest of the organization could act on.
                             </li>
                             <li>
-                                Designed workflows that integrated requirements from multiple technical teams
-                                and translated specifications into clear organizational objectives.
-                            </li>
-                            <li>
-                                Bridged technical and strategic priorities by gathering and synthesizing input
-                                from research teams, developers, and business stakeholders.
-                            </li>
-                            <li>
-                                Managed vendor accountability across several multi-year program phases,
-                                preserving continuity and deliverable quality through partner transitions.
+                                Managed vendor accountability through several multi-year program phases, keeping
+                                continuity and quality intact as partners changed.
                             </li>
                         </ul>
 
-                        <h4 className={Resume.subheading}>Systems Architecture &amp; Optimization</h4>
+                        <h4 className={Resume.subheading}>Systems Architecture, Optimization &amp; Process Improvement</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Consolidated 92 disparate Drupal installations into a unified, scalable
-                                platform, reducing operational complexity by 80%.
+                                Consolidated 92 separate Drupal installations into one unified platform,
+                                cutting operational overhead by 80%.
+                            </li>
+                            <li>
+                                Designed multi-site content architecture and taxonomy systems that support 230+
+                                sites on shared infrastructure.
                             </li>
                             <li>
                                 Executed data migration for 75,000+ webpages using a blend of automated and
                                 hands-on migration strategies.
                             </li>
                             <li>
-                                Authored technical documentation frameworks covering infrastructure
-                                requirements, deployment procedures, and system maintenance protocols.
-                            </li>
-                        </ul>
-
-                        <h4 className={Resume.subheading}>Performance Measurement &amp; Process Improvement</h4>
-                        <ul className={Resume.accomplishments}>
-                            <li>
-                                Built data-driven performance tracking systems monitoring resource utilization,
-                                delivery timelines, and stakeholder satisfaction across an enterprise-scale
-                                portfolio.
+                                Implemented quality assurance for deployment pipelines handling up to 10
+                                concurrent deliverables per week during peak periods.
                             </li>
                             <li>
-                                Established process improvement frameworks that scaled project management
-                                methodologies across diverse technical domains and organizational contexts.
+                                Built performance tracking that measured delivery timelines and stakeholder
+                                satisfaction across a large portfolio of projects.
                             </li>
                             <li>
-                                Implemented quality assurance protocols for deployment pipelines handling up to
-                                10 concurrent deliverables per week during peak execution.
+                                Established process improvements that let our project management approach work
+                                across very different teams and technical domains.
                             </li>
                             <li>
-                                Designed stakeholder communication strategies that kept technical and
-                                non-technical teams transparently aligned on shared goals.
+                                Designed communication strategies that kept technical and non-technical teams
+                                on the same page about shared goals.
+                            </li>
+                            <li>
+                                Wrote the technical documentation the team relies on, covering infrastructure,
+                                deployment procedures, and system maintenance.
                             </li>
                         </ul>
 
                         <h4 className={Resume.subheading}>Research Collaboration &amp; Requirements Translation</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Partnered with academic stakeholders to translate research and content
-                                requirements into actionable technical specifications and implementation
-                                roadmaps.
+                                Partnered with academic staff and researchers to translate their needs into
+                                technical specifications and implementation roadmaps.
                             </li>
                             <li>
                                 Managed resource allocation and planning across technical staff, infrastructure,
-                                and program timelines for multiple concurrent initiatives with competing
-                                priorities.
+                                and program timelines for multiple simultaneous initiatives that often pulled in
+                                different directions.
                             </li>
                         </ul>
 
