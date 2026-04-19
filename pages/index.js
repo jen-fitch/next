@@ -240,25 +240,22 @@ export default function Portfolio() {
                         <h4 className={Resume.subheading}>Full-Cycle Project Management &amp; Strategic Planning</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Manage full-cycle projects for annual client engagements, serving as strategic
-                                advisor and technical lead for small- to medium-business digital transformations.
+                                Run full-cycle projects for annual client engagements, acting as both technical
+                                lead and strategic sounding board for small and mid-size businesses working
+                                through website and technology changes.
                             </li>
                             <li>
-                                Develop project strategies covering resource planning, timeline coordination,
-                                and stakeholder management, aligned with client business objectives and
-                                technical constraints.
+                                Develop project plans that map out resources, timelines, and people, tailored
+                                to each client&apos;s goals and technical realities.
                             </li>
                             <li>
-                                Build scalable web infrastructure using WordPress and custom development,
-                                optimized for performance and maintainability.
+                                Build web infrastructure on WordPress and custom setups with an eye toward
+                                performance and long-term maintainability, and handle the technical pieces
+                                along the way, from hosting and development environments to deployment.
                             </li>
                             <li>
-                                Coordinate technical resource planning across hosting, development environments,
-                                and deployment strategy.
-                            </li>
-                            <li>
-                                Maintain long-term client partnerships through ongoing system optimization,
-                                security updates, and performance monitoring.
+                                Stay in long-term partnership with clients, handling ongoing tuning, security
+                                updates, and performance checks well after launch.
                             </li>
                         </ul>
 
@@ -276,10 +273,16 @@ export default function Portfolio() {
                                 </Link>
                                 <div className={Cards.info}>
                                     <p className={Cards.text}>
-                                        Website redesign<br/>
-                                        Website architecture<br/>
-                                        Project management<br/>
-                                        Strategic consultation
+                                        Partnered with the Humboldt Area Foundation on a full redesign of
+                                        <a href="https://hafoundation.org"> hafoundation.org</a>, from rethinking
+                                        the site architecture through final build.
+                                    </p>
+                                    <p className={Cards.text}>
+                                        The project covered strategic consultation on the foundation&apos;s goals,
+                                        a new site structure that made programs and grant information easier to
+                                        find, and hands-on project management through design and development.
+                                        The Figma prototype captures the design direction that anchored the
+                                        build.
                                     </p>
                                     <p className={Cards.text}>
                                         <strong>Website:</strong> <a href="https://hafoundation.org">hafoundation.org</a><br/>
@@ -298,7 +301,7 @@ export default function Portfolio() {
                             <h3>Bachelor of Fine Arts, Web Design + New Media</h3>
                             <p className={Resume.meta}>Academy of Art University, San Francisco &middot; 2015</p>
                             <p>
-                                Foundation in systems design, user experience, and strategic technology
+                                A foundation in systems thinking, user experience, and strategic technology
                                 implementation.
                             </p>
                         </div>
@@ -306,19 +309,11 @@ export default function Portfolio() {
                             <h3>Technology Leadership Certificate</h3>
                             <p className={Resume.meta}>eCornell University &middot; 2025</p>
                             <p>
-                                Focused on advanced program management, cross-functional team leadership, and
-                                strategic technology planning.
+                                A deep dive into leadership techniques, leading teams functionally across
+                                disciplines, and strategic technology development &amp; planning.
                             </p>
                         </div>
                     </div>
-
-                    <h3 className={Resume.subsectionHeading}>Ongoing Professional Learning</h3>
-                    <ul className={Resume.learningList}>
-                        <li>AI/ML program management and infrastructure strategy</li>
-                        <li>Healthcare technology trends and regulatory compliance</li>
-                        <li>Applying Agile and Scrum methodologies to technical project management</li>
-                        <li>Data analytics and KPI development for performance measurement</li>
-                    </ul>
                 </section>
             </main>
         </div>
