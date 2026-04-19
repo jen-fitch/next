@@ -274,8 +274,8 @@ export default function Portfolio() {
                                 <div className={Cards.info}>
                                     <p className={Cards.text}>
                                         Partnered with the Humboldt Area Foundation on a full redesign of
-                                        <a href="https://hafoundation.org"> hafoundation.org</a>, from rethinking
-                                        the site architecture through final build.
+                                        <a href="https://hafoundation.org"> hafoundation.org</a>, combining two
+                                        large websites into one and rethinking the site architecture.
                                     </p>
                                     <p className={Cards.text}>
                                         The project covered strategic consultation on the foundation&apos;s goals,
