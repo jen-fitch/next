@@ -210,12 +210,18 @@ export default function Portfolio() {
                                 </Link>
                                 <div className={Cards.info}>
                                     <p className={Cards.text}>
-                                        Rebrand and rebuild of <a href="https://humboldt.edu">humboldt.edu</a><br/>
-                                        Content strategy partnership<br/>
-                                        Site-building partnership<br/>
-                                        Redirect implementation<br/>
-                                        Close collaboration with agency &amp; PM<br/>
-                                        Rebranded 200+ subsites
+                                        A multi-year partnership with an outside branding agency to rebrand and
+                                        rebuild <a href="https://humboldt.edu">humboldt.edu</a>, the flagship
+                                        university site and the destination for a consolidation effort that
+                                        brought 200+ subsites onto one platform.
+                                    </p>
+                                    <p className={Cards.text}>
+                                        The work spanned content strategy, information architecture, site
+                                        building, and redirect planning, with careful attention to brand
+                                        consistency, accessibility, and preserving years of SEO equity across a
+                                        sprawling university ecosystem. Coordinated closely with the agency&apos;s
+                                        project manager and internal leadership to keep momentum across many
+                                        simultaneous workstreams and stakeholder groups.
                                     </p>
                                     <p className={Cards.text}>
                                         <strong>Website:</strong> <a href="https://humboldt.edu">humboldt.edu</a>
