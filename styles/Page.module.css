@@ -1,6 +1,6 @@
 /* logo and header info */
 .logo p {
-  color: #1F5E6E;
+  color: #EFE9DE;
   margin: 0 auto;
   padding: 0 0 0 5px;
   font-family: courier, monospace;
@@ -14,8 +14,8 @@
   font-size: 42px;
   font-weight: 300;
   text-align: center;
-  color: #1F5E6E;
-  border-bottom: 2px solid #EFE9DE;
+  color: #fff;
+  border-bottom: 2px solid rgba(239, 233, 222, 0.5);
   width: auto;
   max-width: 370px;
 }
@@ -24,16 +24,21 @@
 .about {
   margin: 10px 0 0;
   text-align: center;
-  color: #595959;
+  color: #EFE9DE;
   padding: 0 0 0 5px;
+  font-family: courier, monospace;
+  letter-spacing: 1px;
 }
 
 .about a {
-  color: #B5563F;
+  color: #EFE9DE;
+  text-decoration: none;
 }
 
 .about a:hover {
-  color: #8C4230;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: rgba(239, 233, 222, 0.5);
 }
 
 .about p {
@@ -41,7 +46,7 @@
 
 }
 .about span {
-  color: #8a8a8a;
+  color: rgba(239, 233, 222, 0.5);
 }
 
 .footerLinks {
