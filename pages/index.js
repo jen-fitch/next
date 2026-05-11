@@ -41,7 +41,7 @@ export default function Portfolio() {
                         <span aria-hidden="true">&nbsp; | &nbsp;</span>
                         <Link href="/pdf/jennifer-fitch_resume_2026.pdf">Résumé</Link>
                         <span aria-hidden="true">&nbsp; | &nbsp;</span>
-                        <Link href="mailto:jenfitch4@gmail.com">Email</Link>
+                        <Link href="mailto:contact@jennifer-fitch.com">Email</Link>
                     </p>
                 </div>
             </header>
@@ -314,7 +314,7 @@ export default function Portfolio() {
                     <span aria-hidden="true">&nbsp; | &nbsp;</span>
                     <Link href="/pdf/jennifer-fitch_resume_2026.pdf">Résumé</Link>
                     <span aria-hidden="true">&nbsp; | &nbsp;</span>
-                    <Link href="mailto:jenfitch4@gmail.com">Email</Link>
+                    <Link href="mailto:contact@jennifer-fitch.com">Email</Link>
                 </p>
             </footer>
         </div>
