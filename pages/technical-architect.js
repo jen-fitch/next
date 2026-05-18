@@ -5,6 +5,7 @@ import Layout from '../styles/Layout.module.css'
 import Page from '../styles/Page.module.css'
 import Cards from '../styles/Cards.module.css'
 import Resume from '../styles/Resume.module.css'
+import Nav from '../styles/Nav.module.css'
 
 export default function Portfolio() {
     return (
@@ -45,13 +46,13 @@ export default function Portfolio() {
                     </p>
                 </div>
             </header>
-            <nav>
-                <ul>
-                    <li><Link href="/project-manager">Project Manager</Link></li>
-                    <li><Link href="/web-design-development">Web Designer & Developer</Link></li>
-                    <li><Link href="/technical-architect">Technical Architect</Link></li>
-                </ul>
-            </nav>
+<nav className={Nav.nav} aria-label="Primary">
+  <ul className={Nav.tabs}>
+  <li><Link href="/project-manager">Project Manager</Link></li>
+  <li><Link href="/web-design-development">Web Designer & Developer</Link></li>
+  <li><Link href="/technical-architect" className={Nav.active}>Technical Architect</Link></li>
+  </ul>
+  </nav>
 
             <main id="main" className={Layout.main}>
                 <section className={Resume.summary}>
