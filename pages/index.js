@@ -48,7 +48,7 @@ export default function Portfolio() {
             <nav>
                 <ul>
                     <li><Link href="/project-manager">Project Manager</Link></li>
-                    <li><Link href="/web-design-development">Technical Consultant</Link></li>
+                    <li><Link href="/web-design-development">Web Designer & Developer</Link></li>
                     <li><Link href="/technical-architect">Technical Architect</Link></li>
                 </ul>
             </nav>
