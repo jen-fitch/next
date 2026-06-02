@@ -49,7 +49,7 @@ export default function Portfolio() {
             <nav className={Nav.nav} aria-label="Primary">
                 <ul className={Nav.tabs}>
                     <li><Link href="/project-manager">Project Manager</Link></li>
-                    <li><Link href="/web-design-development" className={Nav.active}>Web Design & Development</Link></li>
+                    <li><Link href="/web-design-development" className={Nav.active}>Web Designer & Developer</Link></li>
                     <li><Link href="/technical-architect">Technical Architect</Link></li>
                 </ul>
             </nav>
