@@ -46,13 +46,13 @@ export default function Portfolio() {
                     </p>
                 </div>
             </header>
-<nav className={Nav.nav} aria-label="Primary">
-  <ul className={Nav.tabs}>
-  <li><Link href="/project-manager">Project Manager</Link></li>
-  <li><Link href="/web-design-development" className={Nav.active}>Technical Consultant</Link></li>
-  <li><Link href="/technical-architect">Technical Architect</Link></li>
-  </ul>
-  </nav>
+            <nav className={Nav.nav} aria-label="Primary">
+                <ul className={Nav.tabs}>
+                    <li><Link href="/project-manager">Project Manager</Link></li>
+                    <li><Link href="/web-design-development" className={Nav.active}>Web Design & Development</Link></li>
+                    <li><Link href="/technical-architect">Technical Architect</Link></li>
+                </ul>
+            </nav>
 
             <main id="main" className={Layout.main}>
                 <section className={Resume.summary}>
@@ -287,7 +287,7 @@ export default function Portfolio() {
                                         build.
                                     </p>
                                     <p className={Cards.text}>
-                                        <strong>Website:</strong> <a href="https://hafoundation.org">hafoundation.org</a><br/>
+                                        <strong>Website:</strong> <a href="https://hafoundation.org">hafoundation.org</a><br />
                                         <strong>Design:</strong> <a href="https://www.figma.com/proto/iHQs4WnivGAYTQ5tYTRsP4/HAF?page-id=106%3A2&type=design&node-id=406-2&viewport=137%2C191%2C0.07&t=m9OiaABeR9roAvIh-1&scaling=min-zoom&starting-point-node-id=126%3A2&mode=design">Website - Figma</a>
                                     </p>
                                 </div>
