@@ -90,100 +90,70 @@ export default function Portfolio() {
                             <p>California State Polytechnic University, Humboldt &middot; 2015–Present</p>
                         </div>
 
+                        <h4 className={Resume.subheading}>Enterprise Drupal Management, Migrations &amp; Technical Planning</h4>
                         <ul className={Resume.accomplishments}>
+                            <li>Co-administer our Drupal 10 codebase, a portfolio of 230+ websites.</li>
                             <li>
-                                Large-scale website migration and consolidation (230+ websites, $50K+ in annual
-                                savings, 98% complete).
+                                Planned, designed, and built many high-traffic campus sites, roughly one-third
+                                of the previous Drupal 7 portfolio.
                             </li>
-                            <li>Enterprise platform architecture and SQL database management.</li>
                             <li>
-                                Git, cloud infrastructure, and analytics that guide real decisions.
+                                Technical consultant on the agency-led university rename and rebrand (2022), then
+                                co-led the small in-house team that carried the new sub-brand across 230+ Drupal 7
+                                sites, replacing the university name and acronym inside 50+ databases; that success
+                                led to my selection as project manager for the mass migration.
+                            </li>
+                            <li>
+                                Finalizing our multi-year migration of 230+ websites across 92 Drupal installations
+                                to one unified Drupal 10 platform, as both project manager and one of its two
+                                developers, working with content strategists and accessibility specialists.
+                            </li>
+                            <li>
+                                Built a three-tier site classification system for the migration so each site was
+                                scoped honestly, weighing technical complexity, team capacity, and what stakeholders
+                                actually need, before any timeline was promised.
                             </li>
                         </ul>
 
-                        <h4 className={Resume.subheading}>Strategic Digital Transformation &amp; Multi-Phase Infrastructure Initiative</h4>
+                        <h4 className={Resume.subheading}>Client Strategy &amp; Collaboration</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Co-led a multi-year migration of 230+ websites, guiding a team of five through
-                                interdependent technical phases and a wide set of stakeholders.
+                                Collaborate with campus clients to uncover and meet their goals and manage their
+                                complex site redesigns.
                             </li>
                             <li>
-                                Saved $50,000+ annually by consolidating 92 separate environments into a single
-                                platform.
+                                Manage vendor relationships across a multi-year rebranding project and kept work on
+                                track with our rebrand in spite of turnover on external teams.
                             </li>
                             <li>
-                                Built a migration framework with a three-tiered risk model that balanced
-                                technical constraints, business priorities, and resource dependencies.
+                                Explain and translate technical details and organizational goals to stakeholders and
+                                vendors, flagging risks early so scope can shift before problems grow.
                             </li>
                             <li>
-                                Distributed technical workload across development teams while holding a 98%
-                                completion rate and zero critical service disruptions.
+                                Carry projects from intake and estimate through build, training sessions (in person
+                                or Zoom), and post-launch support.
                             </li>
+                            <li>Offer ongoing technical maintenance and support to campus clients.</li>
                         </ul>
 
-                        <h4 className={Resume.subheading}>Multi-Team Technical Coordination &amp; Project-Level Risk Management</h4>
+                        <h4 className={Resume.subheading}>Web Design &amp; Development</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Put project risk mitigation strategies in place, including dependency mapping,
-                                contingency planning, and clear communication protocols for technical and
-                                organizational challenges.
+                                Design and build Drupal websites for recruiting and campus audiences, working closely
+                                with our editorial team, campus photographer, and faculty and staff.
                             </li>
                             <li>
-                                Designed workflows that pulled requirements from multiple teams and translated
-                                them into plain-language objectives the rest of the organization could act on.
+                                Build new content types, views, and paragraphs and develop Drupal templates with Twig
+                                and PHP.
                             </li>
+                            <li>Troubleshoot Drupal updates and any issues with our current codebase.</li>
+                            <li>Work from the command line and use Git daily.</li>
+                            <li>Write and maintain front-end code (HTML, CSS/SCSS, Bootstrap).</li>
+                            <li>Prototype in Figma.</li>
+                            <li>Meet WCAG accessibility standards.</li>
                             <li>
-                                Managed vendor accountability through several multi-year program phases, keeping
-                                continuity and quality intact as partners changed.
-                            </li>
-                        </ul>
-
-                        <h4 className={Resume.subheading}>Web Systems Architecture, Optimization &amp; Process Improvement</h4>
-                        <ul className={Resume.accomplishments}>
-                            <li>
-                                Consolidated 92 separate Drupal installations into one unified platform,
-                                cutting operational overhead by 80%.
-                            </li>
-                            <li>
-                                Designed multi-site content architecture and taxonomy systems that support 230+
-                                sites on shared infrastructure.
-                            </li>
-                            <li>
-                                Executed data migration for 75,000+ webpages using a blend of automated and
-                                hands-on migration strategies.
-                            </li>
-                            <li>
-                                Implemented quality assurance for deployment pipelines handling up to 10
-                                concurrent deliverables per week during peak periods.
-                            </li>
-                            <li>
-                                Built performance tracking that measured delivery timelines and stakeholder
-                                satisfaction across a large portfolio of projects.
-                            </li>
-                            <li>
-                                Established process improvements that let our project management approach work
-                                across very different teams and technical domains.
-                            </li>
-                            <li>
-                                Designed communication strategies that kept technical and non-technical teams
-                                on the same page about shared goals.
-                            </li>
-                            <li>
-                                Wrote the technical documentation the team relies on, covering infrastructure,
-                                deployment procedures, and system maintenance.
-                            </li>
-                        </ul>
-
-                        <h4 className={Resume.subheading}>Research Collaboration &amp; Requirements Translation</h4>
-                        <ul className={Resume.accomplishments}>
-                            <li>
-                                Partnered with academic staff and researchers to translate their needs into
-                                technical specifications and implementation roadmaps.
-                            </li>
-                            <li>
-                                Managed resource allocation and planning across technical staff, infrastructure,
-                                and program timelines for multiple simultaneous initiatives that often pulled in
-                                different directions.
+                                Plan information architecture for new and migrated sites: sitemaps, wireframes, and
+                                content inventories.
                             </li>
                         </ul>
 
@@ -224,29 +194,26 @@ export default function Portfolio() {
 
                     <div className={Resume.experienceBlock}>
                         <div className={Resume.roleHeader}>
-                            <h3>Technical Project Consultant &amp; Website Developer</h3>
-                            <p>Freelance &middot; 2008–Present</p>
+                            <h3>Web Designer &amp; Technical Consultant</h3>
+                            <p>Studio 1062 (Freelance) &middot; 2008–Present</p>
                         </div>
 
-                        <h4 className={Resume.subheading}>Full-Cycle Project Management &amp; Strategic Planning</h4>
                         <ul className={Resume.accomplishments}>
                             <li>
-                                Run full-cycle projects for annual client engagements, acting as both technical
-                                lead and strategic sounding board for small and mid-size businesses working
-                                through website and technology changes.
+                                Run projects end to end for nonprofit and small business clients: discovery,
+                                proposal, scope and estimate, design, build, and long-term maintenance.
                             </li>
                             <li>
-                                Develop project plans that map out resources, timelines, and people, tailored
-                                to each client&apos;s goals and technical realities.
+                                Turn loosely defined client goals into realistic scopes, clear assumptions, and
+                                budgets grounded in what the work actually takes.
                             </li>
                             <li>
-                                Build web infrastructure on WordPress and custom setups with an eye toward
-                                performance and long-term maintainability, and handle the technical pieces
-                                along the way, from hosting and development environments to deployment.
+                                Design and build WordPress sites with custom themes; manage hosting, deployments,
+                                and performance.
                             </li>
                             <li>
-                                Stay in long-term partnership with clients, handling ongoing tuning, security
-                                updates, and performance checks well after launch.
+                                Keep an ongoing client roster through honest scope conversations and reliable
+                                support after launch.
                             </li>
                         </ul>
 
