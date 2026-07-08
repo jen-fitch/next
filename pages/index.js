@@ -285,8 +285,6 @@ export default function Portfolio() {
                 <p className={Page.footerLinks}>
                     <Link href="https://www.linkedin.com/in/jenniferfitch2/">LinkedIn</Link>
                     <span aria-hidden="true">&nbsp; | &nbsp;</span>
-                    <Link href="/pdf/jennifer-fitch_resume_2026.pdf">Résumé</Link>
-                    <span aria-hidden="true">&nbsp; | &nbsp;</span>
                     <Link href="mailto:contact@jennifer-fitch.com">Email</Link>
                 </p>
             </footer>
