@@ -86,7 +86,7 @@ export default function Portfolio() {
 
                     <div className={Resume.experienceBlock}>
                         <div className={Resume.roleHeader}>
-                            <h3>Technical Project Manager &amp; Infrastructure Lead</h3>
+                            <h3>Web Designer &amp; Technical Project Manager</h3>
                             <p>California State Polytechnic University, Humboldt &middot; 2015–Present</p>
                         </div>
 
