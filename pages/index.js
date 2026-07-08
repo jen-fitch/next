@@ -13,7 +13,7 @@ export default function Portfolio() {
                 <title>Jennifer Fitch | Technical Project Manager</title>
                 <meta
                     name="description"
-                    content="Technical Project Manager with 15+ years leading full-cycle projects and 7+ years directing enterprise infrastructure initiatives. Focused on AI infrastructure systems and scalable technical solutions."
+                    content="Technical Project Manager with 15+ years leading full-cycle projects and 7+ years directing enterprise infrastructure initiatives, focused on scalable technical solutions and cross-functional delivery."
                 />
                 <link rel="icon" href="/images/favicon.ico" />
             </Head>
@@ -55,9 +55,9 @@ export default function Portfolio() {
                         shipping high-quality outcomes even when timelines are tight.
                     </p>
                     <p>
-                        Deeply curious about AI infrastructure and the systems that let it scale. I turn tangled
-                        technical requirements into clear, durable solutions, and I keep a close eye on emerging
-                        AI and AI/ML infrastructure trends.
+                        I turn tangled technical requirements into clear, durable solutions, translating
+                        complex needs into plain-language objectives that teams across an organization can
+                        act on.
                     </p>
                 </section>
 
