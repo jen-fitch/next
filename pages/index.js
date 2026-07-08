@@ -49,15 +49,23 @@ export default function Portfolio() {
             <main id="main" className={Layout.main}>
                 <section className={Resume.summary}>
                     <p>
-                        Strategic Technical Project Manager with 15+ years of full-cycle delivery, including
-                        7+ years steering enterprise infrastructure initiatives through complex, multi-stakeholder
-                        environments. I thrive on cross-functional coordination, process optimization, and
-                        shipping high-quality outcomes even when timelines are tight.
+                        I am a web designer and developer who naturally grew into enterprise technical
+                        project management, which means I can build the things I scope and do it on a very
+                        large scale.
                     </p>
                     <p>
-                        I turn tangled technical requirements into clear, durable solutions, translating
-                        complex needs into plain-language objectives that teams across an organization can
-                        act on.
+                        Over the last decade at Cal Poly Humboldt, I have taken dozens of large web projects
+                        from conception through launch and beyond: discovery, estimates, design, build, QA,
+                        training, and long-term support. I have also done hundreds of migrations from start
+                        to finish. My biggest project to date is our multi-year migration of 230+ websites
+                        across 92 Drupal installations and 50,000+ web pages, closing on schedule this
+                        December. On a two-person technical team, I was the project manager, content expert,
+                        and inventory manager, one of the two developers, and I personally QA&apos;d and
+                        launched over half the sites.
+                    </p>
+                    <p>
+                        Universities, nonprofits, and mission-driven organizations are the clients I know
+                        best.
                     </p>
                 </section>
 
