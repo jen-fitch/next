@@ -182,7 +182,7 @@ export default function Portfolio() {
                                         A multi-year partnership with an outside branding agency to rebrand and
                                         rebuild <a href="https://humboldt.edu">humboldt.edu</a>, the flagship
                                         university site and the destination for a consolidation effort that
-                                        brought 200+ subsites onto one platform.
+                                        brought 230+ subsites onto one platform.
                                     </p>
                                     <p className={Cards.text}>
                                         The work spanned content strategy, information architecture, site
